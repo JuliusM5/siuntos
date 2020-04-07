@@ -20,7 +20,9 @@ body {
 .sticky + .content {
   padding-top: 102px;
 }
-
+.second-header {
+  margin-left: 11em;
+}
 .second-header img {
   width: 320px;
   margin-top: 3em;
@@ -108,7 +110,7 @@ body {
 
 .prices-possibilities h2 {
   color: #4c6280;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 4.3em;
   text-align: center;
 }
@@ -190,7 +192,7 @@ body {
 }
 .fas.fa-times-circle {
   margin-top: -2em;
-  margin-left: 28em;
+  margin-left: 17.5em;
   position: absolute;
 }
 
