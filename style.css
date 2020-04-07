@@ -1,0 +1,240 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* width: 1200px; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.first-header {
+  color: #234c87;
+  text-align: center;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.second-header img {
+  width: 320px;
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+#service-button {
+  font-size: 16px;
+  margin-left: 11em;
+  margin-top: 4em;
+  color: #7d93b2;
+  font-weight: bold;
+  text-decoration: none;
+}
+.second-header a {
+  text-decoration: none;
+  margin-left: 6em;
+  color: #7d93b2;
+}
+.third-header {
+  margin-left: 15em;
+  font-family: Helvetica;
+  color: #7d93b2;
+  margin-top: 4em;
+}
+.third-header i {
+  color: #fe4961;
+  font-size: 2.2em;
+  padding-left: 1em;
+}
+.third-header p {
+  padding-right: 5em;
+  margin-left: 1em;
+  padding-top: 7px;
+}
+.services-header {
+  text-align: center;
+  font-weight: bold;
+  color: #234c87;
+  font-size: 29px;
+  margin-top: 3em;
+}
+/* header end */
+.services-possibilities {
+  margin-left: 16em;
+  margin-top: 4em;
+}
+.services-possibilities i {
+  color: #7d93b2;
+  font-size: 74px;
+  margin-left: 32px;
+  margin-top: 36px;
+  background-color: #e5f0ff;
+  border-radius: 55px;
+  padding: 13px;
+}
+.services-possibilities h2 {
+  color: #4c6280;
+  font-size: 18px;
+  margin-top: 1.3em;
+  text-align: center;
+}
+.services-possibilities button {
+  color: #4c6280;
+  font-size: 18px;
+  margin-top: 1.3em;
+  text-align: center;
+  margin-left: 3.3em;
+  text-decoration: none;
+  background: none;
+  border: none;
+  margin-bottom: 1em;
+}
+.prices-header {
+  text-align: center;
+  font-weight: bold;
+  color: #234c87;
+  font-size: 29px;
+  margin-top: 4em;
+}
+.prices-possibilities {
+  margin-left: 25em;
+  margin-top: 2.5em;
+}
+
+.prices-possibilities h2 {
+  color: #4c6280;
+  font-size: 18px;
+  margin-top: 4.3em;
+  text-align: center;
+}
+.prices-possibilities h3 {
+  color: #4c6280;
+  font-size: 18px;
+  margin-top: 3.3em;
+  text-align: center;
+}
+.prices-stars {
+  color: #4c6280;
+  margin-left: 7.2em;
+  margin-top: 3.5em;
+  line-height: 2.6px;
+}
+.third-body h2 {
+  color: #4c6280;
+  margin-top: 4.3em;
+  text-align: center;
+}
+.third-body p {
+  color: #4c6280;
+  text-align: left;
+  padding-left: 16em;
+  padding-right: 16em;
+  margin-top: 3em;
+}
+.first-footer {
+  margin-left: 2em;
+}
+#contact {
+  color: #4c6280;
+  font-size: 2rem;
+  margin-top: 4.3em;
+  text-align: center;
+}
+.footer-contacts {
+  margin-top: 5em;
+  color: #4c6280;
+  line-height: 2.6px;
+}
+.second-footer {
+  color: #4c6280;
+  font-size: 18px;
+  margin-top: 5em;
+  text-align: center;
+}
+#rek-header {
+  margin-top: 1.8em;
+}
+.rek-contacts {
+  margin-top: 1.7em;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myDIV {
+  text-align: center;
+  margin-left: 24em;
+  margin-right: 24em;
+  margin-top: 3em;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+  padding: 2em;
+  color: #4c6280;
+  display: none;
+  position: relative;
+}
+.fas.fa-times-circle {
+  margin-top: -2em;
+  margin-left: 28em;
+  position: absolute;
+}
+
+#myTravel {
+  text-align: center;
+  margin-left: 24em;
+  margin-right: 24em;
+  margin-top: 3em;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+  padding: 2em;
+  color: #4c6280;
+  display: none;
+  position: relative;
+}
+#myNiba {
+  text-align: center;
+  margin-left: 24em;
+  margin-right: 24em;
+  margin-top: 3em;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+  padding: 2em;
+  color: #4c6280;
+  display: none;
+  position: relative;
+}
+#myGanga {
+  text-align: center;
+  margin-left: 24em;
+  margin-right: 24em;
+  margin-top: 3em;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+  padding: 2em;
+  color: #4c6280;
+  display: none;
+  position: relative;
+}
+#myLoka {
+  text-align: center;
+  margin-left: 24em;
+  margin-right: 24em;
+  margin-top: 3em;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+  padding: 2em;
+  color: #4c6280;
+  display: none;
+  position: relative;
+}
