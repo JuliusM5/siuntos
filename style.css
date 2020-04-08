@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* width: 1200px; */
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -66,6 +65,7 @@ body {
   margin-top: 3em;
 }
 /* header end */
+/* body */
 .services-possibilities {
   margin-left: 16em;
   margin-top: 4em;
@@ -138,6 +138,8 @@ body {
   padding-right: 16em;
   margin-top: 3em;
 }
+/* body end*/
+
 .first-footer {
   margin-left: 2em;
 }
@@ -164,6 +166,8 @@ body {
 .rek-contacts {
   margin-top: 1.7em;
 }
+/* footer end */
+/* button to top */
 #myBtn {
   display: none;
   position: fixed;
@@ -179,7 +183,9 @@ body {
   padding: 15px;
   border-radius: 4px;
 }
-#myDIV {
+/* button to top end */
+/* text for placiau */
+#travelling-stuffs {
   text-align: center;
   margin-left: 24em;
   margin-right: 24em;
@@ -196,7 +202,7 @@ body {
   position: absolute;
 }
 
-#myTravel {
+#move-stuffsvel {
   text-align: center;
   margin-left: 24em;
   margin-right: 24em;
@@ -207,7 +213,7 @@ body {
   display: none;
   position: relative;
 }
-#myNiba {
+#packing-stuffs {
   text-align: center;
   margin-left: 24em;
   margin-right: 24em;
@@ -218,7 +224,7 @@ body {
   display: none;
   position: relative;
 }
-#myGanga {
+#helpers-stuffsga {
   text-align: center;
   margin-left: 24em;
   margin-right: 24em;
@@ -229,7 +235,7 @@ body {
   display: none;
   position: relative;
 }
-#myLoka {
+#destroy-stuffsa {
   text-align: center;
   margin-left: 24em;
   margin-right: 24em;
@@ -240,3 +246,1810 @@ body {
   display: none;
   position: relative;
 }
+/* text for placiau */
+/* responsive */
+@media screen and (min-width: 567px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 128px;
+    margin-top: 2em;
+    margin-left: -11em;
+  }
+  .second-header a {
+    margin-left: 1em;
+    color: #7d93b2;
+    font-size: 11px;
+  }
+  #service-button {
+    font-size: 16px;
+    margin-left: -10px;
+    margin-top: 28px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 32px;
+  }
+  .third-header i {
+    font-size: 24px;
+  }
+  .third-header p {
+    font-size: 10px;
+    padding-right: 0em;
+    margin-left: 3px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 3em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 106px;
+  }
+  .services-possibilities h2 {
+    padding-left: 3.6em;
+  }
+  .services-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .services-possibilities button {
+    margin-left: 5.3em;
+  }
+  #travelling-stuffs {
+    margin-left: -0.1em;
+  }
+  #travelling-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+  }
+  #move-stuffsvel i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+  }
+  #packing-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffsga {
+    margin-left: -0.1em;
+  }
+  #helpers-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 3em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    padding-left: 4.6em;
+  }
+  .prices-possibilities h3 {
+    margin-left: 5em;
+  }
+  .prices-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 22px;
+    margin-right: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -2em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 3em;
+  }
+  .footer-contacts iframe {
+    margin-top: 24em;
+    margin-left: -17em;
+    width: 417px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 138px;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .second-header a {
+    margin-left: 1em;
+    color: #7d93b2;
+    font-size: 14px;
+  }
+  #service-button {
+    font-size: 16px;
+    margin-left: -10px;
+    margin-top: 28px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 32px;
+  }
+  .third-header i {
+    font-size: 26px;
+    margin-left: 2em;
+  }
+  .third-header p {
+    font-size: 10px;
+    padding-right: 0em;
+    margin-left: 3px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 106px;
+  }
+  .services-possibilities h2 {
+    padding-left: 3.6em;
+  }
+  .services-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .services-possibilities button {
+    margin-left: 5.3em;
+  }
+  #travelling-stuffs {
+    margin-left: -0.1em;
+  }
+  #travelling-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+  }
+  #move-stuffsvel i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+  }
+  #packing-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -0.1em;
+  }
+  #helpers-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    padding-left: 4.6em;
+  }
+  .prices-possibilities h3 {
+    margin-left: 5em;
+  }
+  .prices-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 22px;
+    margin-right: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -2em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 10em;
+  }
+  .footer-contacts iframe {
+    margin-top: 24em;
+    margin-left: -23em;
+    width: 500px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 192px;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .second-header a {
+    margin-left: 1em;
+    color: #7d93b2;
+    font-size: 14px;
+  }
+  #service-button {
+    font-size: 138px;
+    margin-left: 54px;
+    margin-top: -104px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 32px;
+  }
+  .third-header i {
+    font-size: 31px;
+    margin-left: 3em;
+  }
+  .third-header p {
+    font-size: 12px;
+    padding-right: 0em;
+    margin-left: 9px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 46px;
+  }
+  .services-possibilities h2 {
+    /* padding-left: 3.6em; */
+  }
+  #packing {
+    padding-left: 1.8em;
+  }
+  #destroy-services {
+    margin-top: 1em;
+  }
+  #picking-services {
+    margin-left: 8em;
+    margin-top: 1em;
+  }
+  .services-possibilities div {
+    margin-left: 1em;
+    padding-right: 11em;
+  }
+  .services-possibilities button {
+    margin-left: 2.3em;
+  }
+  #travelling-stuffs {
+    margin-left: 0.9em;
+  }
+  #travelling-stuffs i {
+    margin-top: -2em;
+    margin-left: 16.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+  }
+  #move-stuffsvel i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+  }
+  #packing-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -0.1em;
+  }
+  #helpers-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    padding-left: 4.6em;
+  }
+  .prices-possibilities h3 {
+    margin-left: 5em;
+  }
+  .prices-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 22px;
+    margin-right: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -2em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 10em;
+  }
+  .footer-contacts iframe {
+    margin-top: 24em;
+    margin-left: -23em;
+    width: 500px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 259px;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .second-header a {
+    margin-left: 3em;
+    color: #7d93b2;
+    font-size: 15px;
+  }
+  #service-button {
+    font-size: 138px;
+    margin-left: 54px;
+    margin-top: -104px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 32px;
+  }
+  .third-header i {
+    font-size: 31px;
+    margin-left: 3em;
+  }
+  .third-header p {
+    font-size: 12px;
+    padding-right: 0em;
+    margin-left: 9px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 46px;
+  }
+  .services-possibilities h2 {
+    margin-left: -61px;
+  }
+  #packing {
+    padding-left: 5.5em;
+  }
+  #destroy-services {
+    margin-top: 1em;
+  }
+  #picking-services {
+    margin-left: 8em;
+    margin-top: 1em;
+  }
+  .services-possibilities div {
+    margin-left: 1em;
+    padding-right: 11em;
+  }
+  .services-possibilities button {
+    margin-left: 2.3em;
+  }
+  #travelling-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #travelling-stuffs i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #move-stuffsvel i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #packing-stuffs i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #helpers-stuffs i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 5em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    margin-left: -76px;
+  }
+  .prices-possibilities h3 {
+    margin-left: 15px;
+  }
+  #packing-help {
+    margin-left: 13em;
+    padding-bottom: 1em;
+  }
+  .prices-possibilities div {
+    margin-left: 1em;
+    padding-right: 10em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 22px;
+    margin-right: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -2em;
+  }
+  .first-footer {
+    margin-left: -7em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 10em;
+  }
+  .footer-contacts iframe {
+    margin-top: 0em;
+    margin-left: -5em;
+    width: 500px;
+    height: 331px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 259px;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .second-header a {
+    margin-left: 3em;
+    color: #7d93b2;
+    font-size: 15px;
+  }
+  #service-button {
+    font-size: 138px;
+    margin-left: 54px;
+    margin-top: -104px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 128px;
+  }
+  .third-header i {
+    font-size: 31px;
+    margin-left: 3em;
+  }
+  .third-header p {
+    font-size: 12px;
+    padding-right: 0em;
+    margin-left: 9px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 46px;
+  }
+  .services-possibilities h2 {
+    margin-left: -61px;
+  }
+  #packing {
+    padding-left: 5.5em;
+  }
+  #destroy-services {
+    margin-top: 0em;
+  }
+  #picking-services {
+    margin-left: 0em;
+    margin-top: 0em;
+  }
+  .services-possibilities div {
+    margin-left: 0em;
+  }
+  .services-possibilities button {
+    margin-left: 2.3em;
+  }
+  #travelling-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #travelling-stuffs i {
+    margin-top: -2.5em;
+    margin-left: 25.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #move-stuffsvel i {
+    margin-top: -2.5em;
+    margin-left: 25.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #packing-stuffs i {
+    margin-top: -2.5em;
+    margin-left: 25.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #helpers-stuffs i {
+    margin-top: -2.5em;
+    margin-left: 25.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -2.5em;
+    margin-left: 25.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 17em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    margin-left: -76px;
+  }
+  .prices-possibilities h3 {
+    margin-left: 15px;
+  }
+  #packing-help {
+    margin-left: 13em;
+    padding-bottom: 2em;
+    margin-top: 1em;
+  }
+  .destroy-services {
+    padding-bottom: 2em;
+    margin-top: 1em;
+  }
+  .prices-possibilities div {
+    margin-left: 1em;
+    padding-right: 10em;
+    margin-top: 1em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 285px;
+    margin-right: 370px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5em;
+  }
+  .first-footer {
+    margin-left: -7em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 10em;
+  }
+  .footer-contacts iframe {
+    margin-top: 0em;
+    margin-left: -5em;
+    width: 500px;
+    height: 331px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 259px;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .second-header a {
+    margin-left: 3em;
+    color: #7d93b2;
+    font-size: 15px;
+  }
+  #service-button {
+    font-size: 138px;
+    margin-left: 54px;
+    margin-top: -104px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 32px;
+  }
+  .third-header i {
+    font-size: 31px;
+    margin-left: 3em;
+  }
+  .third-header p {
+    font-size: 12px;
+    padding-right: 0em;
+    margin-left: 9px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 46px;
+  }
+  .services-possibilities h2 {
+    margin-left: -61px;
+  }
+  #packing {
+    padding-left: 5.5em;
+  }
+  #destroy-services {
+    margin-top: 0em;
+  }
+  #picking-services {
+    margin-left: 1em;
+    margin-top: 0em;
+  }
+  .services-possibilities div {
+    margin-left: 1em;
+    padding-right: 11em;
+  }
+  .services-possibilities button {
+    margin-left: 2.3em;
+  }
+  #travelling-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #travelling-stuffs i {
+    margin-top: -2.5em;
+    margin-left: 28.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #move-stuffsvel i {
+    margin-top: -2.5em;
+    margin-left: 28.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #packing-stuffs i {
+    margin-top: -2.5em;
+    margin-left: 28.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #helpers-stuffs i {
+    margin-top: -2.5em;
+    margin-left: 28.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -2.5em;
+    margin-left: 28.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 11em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    margin-left: -76px;
+  }
+  .prices-possibilities h3 {
+    margin-left: 15px;
+  }
+  #packing-help {
+    margin-left: 13em;
+    padding-bottom: 2em;
+    margin-top: 1em;
+  }
+  .destroy-services {
+    padding-bottom: 2em;
+    margin-top: 1em;
+  }
+  .prices-possibilities div {
+    margin-left: 3em;
+    padding-right: 10em;
+    margin-top: 1em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 22px;
+    margin-right: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -2em;
+  }
+  .first-footer {
+    margin-left: -7em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 10em;
+  }
+  .footer-contacts iframe {
+    margin-top: 0em;
+    margin-left: -5em;
+    width: 500px;
+    height: 331px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 259px;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .second-header a {
+    margin-left: 3em;
+    color: #7d93b2;
+    font-size: 15px;
+  }
+  #service-button {
+    font-size: 138px;
+    margin-left: 54px;
+    margin-top: -104px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 32px;
+  }
+  .third-header i {
+    font-size: 31px;
+    margin-left: 3em;
+  }
+  .third-header p {
+    font-size: 12px;
+    padding-right: 0em;
+    margin-left: 9px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 46px;
+  }
+  .services-possibilities h2 {
+    margin-left: -61px;
+  }
+  #packing {
+    padding-left: 5.5em;
+  }
+  #destroy-services {
+    margin-top: 1em;
+  }
+  #picking-services {
+    margin-left: 8em;
+    margin-top: 1em;
+  }
+  .services-possibilities div {
+    margin-left: 1em;
+    padding-right: 11em;
+  }
+  .services-possibilities button {
+    margin-left: 2.3em;
+  }
+  #travelling-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #travelling-stuffs i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #move-stuffsvel i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #packing-stuffs i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #helpers-stuffs i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+    margin-right: 0em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -1.5em;
+    margin-left: 17.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 5em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    margin-left: -76px;
+  }
+  .prices-possibilities h3 {
+    margin-left: 15px;
+  }
+  #packing-help {
+    margin-left: 13em;
+    padding-bottom: 1em;
+  }
+  .prices-possibilities div {
+    margin-left: 1em;
+    padding-right: 10em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 22px;
+    margin-right: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -2em;
+  }
+  .first-footer {
+    margin-left: -7em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 10em;
+  }
+  .footer-contacts iframe {
+    margin-top: 0em;
+    margin-left: -5em;
+    width: 500px;
+    height: 331px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+@media screen and (max-width: 992px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 192px;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .second-header a {
+    margin-left: 1em;
+    color: #7d93b2;
+    font-size: 14px;
+  }
+  #service-button {
+    font-size: 138px;
+    margin-left: 54px;
+    margin-top: -104px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 32px;
+  }
+  .third-header i {
+    font-size: 31px;
+    margin-left: 3em;
+  }
+  .third-header p {
+    font-size: 12px;
+    padding-right: 0em;
+    margin-left: 9px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 46px;
+  }
+  .services-possibilities h2 {
+    /* padding-left: 3.6em; */
+  }
+  #packing {
+    padding-left: 1.8em;
+  }
+  #destroy-services {
+    margin-top: 1em;
+  }
+  #picking-services {
+    margin-left: 2em;
+    margin-top: 0em;
+  }
+  .services-possibilities div {
+    margin-left: 1em;
+    padding-right: 11em;
+  }
+  .services-possibilities button {
+    margin-left: 2.3em;
+  }
+  #travelling-stuffs {
+    margin-left: 0.9em;
+  }
+  #travelling-stuffs i {
+    margin-top: -2em;
+    margin-left: 16.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+  }
+  #move-stuffsvel i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+  }
+  #packing-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -0.1em;
+  }
+  #helpers-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    padding-left: 4.6em;
+  }
+  .prices-possibilities h3 {
+    margin-left: 5em;
+  }
+  .prices-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 22px;
+    margin-right: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -2em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 10em;
+  }
+  .footer-contacts iframe {
+    margin-top: 24em;
+    margin-left: -23em;
+    width: 500px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 138px;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .second-header a {
+    margin-left: 1em;
+    color: #7d93b2;
+    font-size: 14px;
+  }
+  #service-button {
+    font-size: 16px;
+    margin-left: -10px;
+    margin-top: 28px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 32px;
+  }
+  .third-header i {
+    font-size: 26px;
+    margin-left: 2em;
+  }
+  .third-header p {
+    font-size: 10px;
+    padding-right: 0em;
+    margin-left: 3px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 106px;
+  }
+  .services-possibilities h2 {
+    padding-left: 3.6em;
+  }
+  .services-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .services-possibilities button {
+    margin-left: 5.3em;
+  }
+  #travelling-stuffs {
+    margin-left: -0.1em;
+  }
+  #travelling-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+  }
+  #move-stuffsvel i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+  }
+  #packing-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -0.1em;
+  }
+  #helpers-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 10em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    padding-left: 4.6em;
+  }
+  .prices-possibilities h3 {
+    margin-left: 5em;
+  }
+  .prices-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 22px;
+    margin-right: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -2em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 10em;
+  }
+  .footer-contacts iframe {
+    margin-top: 24em;
+    margin-left: -23em;
+    width: 500px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .first-header h2 {
+    font-size: 1em;
+    margin-left: 2px;
+  }
+
+  .second-header img {
+    width: 128px;
+    margin-top: 2em;
+    margin-left: -11em;
+  }
+  .second-header a {
+    margin-left: 1em;
+    color: #7d93b2;
+    font-size: 11px;
+  }
+  #service-button {
+    font-size: 16px;
+    margin-left: -10px;
+    margin-top: 28px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: 32px;
+  }
+  .third-header i {
+    font-size: 24px;
+  }
+  .third-header p {
+    font-size: 10px;
+    padding-right: 0em;
+    margin-left: 3px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-possibilities {
+    margin-left: 3em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 106px;
+  }
+  .services-possibilities h2 {
+    padding-left: 3.6em;
+  }
+  .services-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .services-possibilities button {
+    margin-left: 5.3em;
+  }
+  #travelling-stuffs {
+    margin-left: -0.1em;
+  }
+  #travelling-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -0.1em;
+  }
+  #move-stuffsvel i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -0.1em;
+  }
+  #packing-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -0.1em;
+  }
+  #helpers-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -0.1em;
+  }
+  #destroy-stuffsa i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: 3em;
+    margin-top: 3em;
+  }
+  .prices-possibilities h2 {
+    padding-left: 4.6em;
+  }
+  .prices-possibilities h3 {
+    margin-left: 5em;
+  }
+  .prices-possibilities div {
+    margin-left: 2em;
+    padding-right: 19em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+  }
+  .third-body p {
+    margin-left: 22px;
+    margin-right: 31px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -2em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: 3em;
+  }
+  .footer-contacts iframe {
+    margin-top: 24em;
+    margin-left: -17em;
+    width: 417px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .first-header h2 {
+    font-size: 12px;
+    margin-left: 11px;
+  }
+
+  .second-header img {
+    width: 128px;
+    margin-top: 2em;
+    margin-left: -10em;
+  }
+  .second-header a {
+    margin-left: 1em;
+    color: #7d93b2;
+    font-size: 11px;
+  }
+  #service-button {
+    font-size: 16px;
+    margin-left: -155px;
+    margin-top: 62px;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: -39px;
+  }
+  .third-header i {
+    font-size: 33px;
+    margin-left: 3em;
+    line-height: 2em;
+  }
+  .third-header p {
+    font-size: 14px;
+    padding-right: 0em;
+    margin-left: 8px;
+    padding-top: 7px;
+  }
+  .services-header p {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  .services-possibilities {
+    margin-left: -1em;
+    margin-top: 3em;
+  }
+  .services-possibilities i {
+    font-size: 37px;
+    margin-left: 106px;
+  }
+  .services-possibilities h2 {
+    padding-left: 3.6em;
+  }
+  .services-possibilities div {
+    margin-left: 1.4em;
+    padding-right: 19em;
+  }
+  .services-possibilities button {
+    margin-left: 5.3em;
+  }
+  #myBtn {
+    margin-right: -1em;
+    font-weight: bold;
+  }
+  #travelling-stuffs {
+    margin-left: -11px;
+  }
+  #travelling-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #move-stuffsvel {
+    margin-left: -11px;
+  }
+  #move-stuffsvel i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #packing-stuffs {
+    margin-left: -11px;
+  }
+  #packing-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #helpers-stuffs {
+    margin-left: -11px;
+  }
+  #helpers-stuffs i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  #destroy-stuffsa {
+    margin-left: -11px;
+  }
+  #destroy-stuffsa i {
+    margin-top: -2em;
+    margin-left: 13.2em;
+    font-size: 23px;
+    background: none;
+  }
+  .prices-header h2 {
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .prices-header p {
+    font-size: 20px;
+  }
+  .prices-possibilities {
+    margin-left: -1.4em;
+    margin-top: 3em;
+  }
+  #picking-services {
+    margin-left: 1.4em;
+    padding-right: 19em;
+    margin-top: 0px;
+  }
+  #destroy-services {
+    margin-left: 1.4em;
+    padding-right: 19em;
+    margin-top: 0px;
+  }
+  #packing {
+    padding-left: 91px;
+  }
+  .prices-possibilities h2 {
+    padding-left: 4.6em;
+  }
+  .prices-possibilities h3 {
+    margin-left: 5em;
+  }
+  .prices-possibilities div {
+    margin-left: 1.6em;
+    padding-right: 19em;
+  }
+  .prices-stars {
+    margin-left: 1.2em;
+    line-height: 1.2em;
+  }
+  .third-body h2 {
+    font-size: 22px;
+    margin-left: 35px;
+  }
+  .third-body p {
+    margin-left: 26px;
+    margin-right: -5px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contact {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 0em;
+  }
+  .footer-contacts {
+    line-height: 1.5em;
+    margin-left: -18px;
+  }
+  .footer-contacts iframe {
+    margin-top: 24em;
+    margin-left: -13em;
+    width: 380px;
+  }
+  #rek-header {
+    font-size: 1.5em;
+    margin-top: 1.3em;
+    margin-left: 5.5em;
+  }
+}
+/* responsive */
