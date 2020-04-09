@@ -139,7 +139,7 @@ body {
   margin-top: 3em;
 }
 /* body end*/
-
+/* footer */
 .first-footer {
   margin-left: 2em;
 }
@@ -202,7 +202,7 @@ body {
   position: absolute;
 }
 
-#move-stuffsvel {
+#move-stuffs {
   text-align: center;
   margin-left: 24em;
   margin-right: 24em;
@@ -224,7 +224,7 @@ body {
   display: none;
   position: relative;
 }
-#helpers-stuffsga {
+#helpers-stuffs {
   text-align: center;
   margin-left: 24em;
   margin-right: 24em;
@@ -235,7 +235,7 @@ body {
   display: none;
   position: relative;
 }
-#destroy-stuffsa {
+#destroy-stuffs {
   text-align: center;
   margin-left: 24em;
   margin-right: 24em;
@@ -312,10 +312,10 @@ body {
     font-size: 23px;
     background: none;
   }
-  #move-stuffsvel {
+  #move-stuffs {
     margin-left: -0.1em;
   }
-  #move-stuffsvel i {
+  #move-stuffs i {
     margin-top: -2em;
     margin-left: 13.2em;
     font-size: 23px;
@@ -330,7 +330,7 @@ body {
     font-size: 23px;
     background: none;
   }
-  #helpers-stuffsga {
+  #helpers-stuffs {
     margin-left: -0.1em;
   }
   #helpers-stuffs i {
@@ -339,10 +339,10 @@ body {
     font-size: 23px;
     background: none;
   }
-  #destroy-stuffsa {
+  #destroy-stuffs {
     margin-left: -0.1em;
   }
-  #destroy-stuffsa i {
+  #destroy-stuffs i {
     margin-top: -2em;
     margin-left: 13.2em;
     font-size: 23px;
@@ -463,14 +463,17 @@ body {
     font-size: 23px;
     background: none;
   }
-  #move-stuffsvel {
+  #move-stuffs {
     margin-left: -0.1em;
   }
-  #move-stuffsvel i {
+  #move-stuffs i {
     margin-top: -2em;
     margin-left: 13.2em;
     font-size: 23px;
     background: none;
+  }
+  #packing {
+    padding-left: 5.5em;
   }
   #packing-stuffs {
     margin-left: -0.1em;
@@ -490,10 +493,10 @@ body {
     font-size: 23px;
     background: none;
   }
-  #destroy-stuffsa {
+  #destroy-stuffs {
     margin-left: -0.1em;
   }
-  #destroy-stuffsa i {
+  #destroy-stuffs i {
     margin-top: -2em;
     margin-left: 13.2em;
     font-size: 23px;
@@ -517,13 +520,13 @@ body {
     padding-right: 19em;
   }
   .prices-stars {
-    margin-left: 1.2em;
+    margin-left: 3.2em;
   }
   .third-body h2 {
     font-size: 22px;
   }
   .third-body p {
-    margin-left: 22px;
+    margin-left: 60px;
     margin-right: 31px;
     padding-left: 0px;
     padding-right: 0px;
@@ -535,12 +538,13 @@ body {
   }
   .footer-contacts {
     line-height: 1.5em;
-    margin-left: 10em;
+    margin-left: 1em;
   }
   .footer-contacts iframe {
-    margin-top: 24em;
-    margin-left: -23em;
-    width: 500px;
+    margin-top: 0em;
+    margin-left: 0em;
+    width: 335px;
+    height: 335px;
   }
   #rek-header {
     font-size: 1.5em;
@@ -595,9 +599,7 @@ body {
     font-size: 37px;
     margin-left: 46px;
   }
-  .services-possibilities h2 {
-    /* padding-left: 3.6em; */
-  }
+
   #packing {
     padding-left: 1.8em;
   }
@@ -624,10 +626,10 @@ body {
     font-size: 23px;
     background: none;
   }
-  #move-stuffsvel {
+  #move-stuffs {
     margin-left: -0.1em;
   }
-  #move-stuffsvel i {
+  #move-stuffs i {
     margin-top: -2em;
     margin-left: 13.2em;
     font-size: 23px;
@@ -651,10 +653,10 @@ body {
     font-size: 23px;
     background: none;
   }
-  #destroy-stuffsa {
+  #destroy-stuffs {
     margin-left: -0.1em;
   }
-  #destroy-stuffsa i {
+  #destroy-stuffs i {
     margin-top: -2em;
     margin-left: 13.2em;
     font-size: 23px;
@@ -786,11 +788,11 @@ body {
     font-size: 23px;
     background: none;
   }
-  #move-stuffsvel {
+  #move-stuffs {
     margin-left: -0.1em;
     margin-right: 0em;
   }
-  #move-stuffsvel i {
+  #move-stuffs i {
     margin-top: -1.5em;
     margin-left: 17.2em;
     font-size: 23px;
@@ -816,11 +818,11 @@ body {
     font-size: 23px;
     background: none;
   }
-  #destroy-stuffsa {
+  #destroy-stuffs {
     margin-left: -0.1em;
     margin-right: 0em;
   }
-  #destroy-stuffsa i {
+  #destroy-stuffs i {
     margin-top: -1.5em;
     margin-left: 17.2em;
     font-size: 23px;
@@ -902,12 +904,12 @@ body {
   }
   #service-button {
     font-size: 138px;
-    margin-left: 54px;
-    margin-top: -104px;
+    margin-left: 3em;
+    margin-top: -98px;
     color: #7d93b2;
   }
   .third-header {
-    margin-left: 128px;
+    margin-left: 25em;
   }
   .third-header i {
     font-size: 31px;
@@ -923,7 +925,7 @@ body {
     font-size: 20px;
   }
   .services-possibilities {
-    margin-left: 10em;
+    margin-left: 22em;
     margin-top: 3em;
   }
   .services-possibilities i {
@@ -950,52 +952,52 @@ body {
     margin-left: 2.3em;
   }
   #travelling-stuffs {
-    margin-left: -0.1em;
-    margin-right: 0em;
+    margin-left: -2.1em;
+    margin-right: 37em;
   }
   #travelling-stuffs i {
     margin-top: -2.5em;
-    margin-left: 25.2em;
+    margin-left: 16.2em;
     font-size: 23px;
     background: none;
   }
-  #move-stuffsvel {
-    margin-left: -0.1em;
-    margin-right: 0em;
+  #move-stuffs {
+    margin-left: -2.1em;
+    margin-right: 37em;
   }
-  #move-stuffsvel i {
+  #move-stuffs i {
     margin-top: -2.5em;
-    margin-left: 25.2em;
+    margin-left: 16.2em;
     font-size: 23px;
     background: none;
   }
   #packing-stuffs {
-    margin-left: -0.1em;
-    margin-right: 0em;
+    margin-left: -2.1em;
+    margin-right: 37em;
   }
   #packing-stuffs i {
     margin-top: -2.5em;
-    margin-left: 25.2em;
+    margin-left: 16.2em;
     font-size: 23px;
     background: none;
   }
   #helpers-stuffs {
-    margin-left: -0.1em;
-    margin-right: 0em;
+    margin-left: -2.1em;
+    margin-right: 37em;
   }
   #helpers-stuffs i {
     margin-top: -2.5em;
-    margin-left: 25.2em;
+    margin-left: 16.2em;
     font-size: 23px;
     background: none;
   }
-  #destroy-stuffsa {
-    margin-left: -0.1em;
-    margin-right: 0em;
+  #destroy-stuffs {
+    margin-left: -2.1em;
+    margin-right: 37em;
   }
-  #destroy-stuffsa i {
+  #destroy-stuffs i {
     margin-top: -2.5em;
-    margin-left: 25.2em;
+    margin-left: 16.2em;
     font-size: 23px;
     background: none;
   }
@@ -1003,7 +1005,7 @@ body {
     font-size: 20px;
   }
   .prices-possibilities {
-    margin-left: 17em;
+    margin-left: 27em;
     margin-top: 3em;
   }
   .prices-possibilities h2 {
@@ -1048,7 +1050,7 @@ body {
   }
   .footer-contacts {
     line-height: 1.5em;
-    margin-left: 10em;
+    margin-left: 24em;
   }
   .footer-contacts iframe {
     margin-top: 0em;
@@ -1139,11 +1141,11 @@ body {
     font-size: 23px;
     background: none;
   }
-  #move-stuffsvel {
+  #move-stuffs {
     margin-left: -0.1em;
     margin-right: 0em;
   }
-  #move-stuffsvel i {
+  #move-stuffs i {
     margin-top: -2.5em;
     margin-left: 28.2em;
     font-size: 23px;
@@ -1169,11 +1171,11 @@ body {
     font-size: 23px;
     background: none;
   }
-  #destroy-stuffsa {
+  #destroy-stuffs {
     margin-left: -0.1em;
     margin-right: 0em;
   }
-  #destroy-stuffsa i {
+  #destroy-stuffs i {
     margin-top: -2.5em;
     margin-left: 28.2em;
     font-size: 23px;
@@ -1242,642 +1244,8 @@ body {
     margin-left: 5.5em;
   }
 }
-@media screen and (max-width: 1023px) {
-  .first-header h2 {
-    font-size: 1em;
-    margin-left: 2px;
-  }
 
-  .second-header img {
-    width: 259px;
-    margin-top: 2em;
-    margin-left: -8em;
-  }
-  .second-header a {
-    margin-left: 3em;
-    color: #7d93b2;
-    font-size: 15px;
-  }
-  #service-button {
-    font-size: 138px;
-    margin-left: 54px;
-    margin-top: -104px;
-    color: #7d93b2;
-  }
-  .third-header {
-    margin-left: 32px;
-  }
-  .third-header i {
-    font-size: 31px;
-    margin-left: 3em;
-  }
-  .third-header p {
-    font-size: 12px;
-    padding-right: 0em;
-    margin-left: 9px;
-    padding-top: 7px;
-  }
-  .services-header p {
-    font-size: 20px;
-  }
-  .services-possibilities {
-    margin-left: 10em;
-    margin-top: 3em;
-  }
-  .services-possibilities i {
-    font-size: 37px;
-    margin-left: 46px;
-  }
-  .services-possibilities h2 {
-    margin-left: -61px;
-  }
-  #packing {
-    padding-left: 5.5em;
-  }
-  #destroy-services {
-    margin-top: 1em;
-  }
-  #picking-services {
-    margin-left: 8em;
-    margin-top: 1em;
-  }
-  .services-possibilities div {
-    margin-left: 1em;
-    padding-right: 11em;
-  }
-  .services-possibilities button {
-    margin-left: 2.3em;
-  }
-  #travelling-stuffs {
-    margin-left: -0.1em;
-    margin-right: 0em;
-  }
-  #travelling-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 17.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #move-stuffsvel {
-    margin-left: -0.1em;
-    margin-right: 0em;
-  }
-  #move-stuffsvel i {
-    margin-top: -1.5em;
-    margin-left: 17.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #packing-stuffs {
-    margin-left: -0.1em;
-    margin-right: 0em;
-  }
-  #packing-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 17.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #helpers-stuffs {
-    margin-left: -0.1em;
-    margin-right: 0em;
-  }
-  #helpers-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 17.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #destroy-stuffsa {
-    margin-left: -0.1em;
-    margin-right: 0em;
-  }
-  #destroy-stuffsa i {
-    margin-top: -1.5em;
-    margin-left: 17.2em;
-    font-size: 23px;
-    background: none;
-  }
-  .prices-header p {
-    font-size: 20px;
-  }
-  .prices-possibilities {
-    margin-left: 5em;
-    margin-top: 3em;
-  }
-  .prices-possibilities h2 {
-    margin-left: -76px;
-  }
-  .prices-possibilities h3 {
-    margin-left: 15px;
-  }
-  #packing-help {
-    margin-left: 13em;
-    padding-bottom: 1em;
-  }
-  .prices-possibilities div {
-    margin-left: 1em;
-    padding-right: 10em;
-  }
-  .prices-stars {
-    margin-left: 1.2em;
-  }
-  .third-body h2 {
-    font-size: 22px;
-  }
-  .third-body p {
-    margin-left: 22px;
-    margin-right: 31px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #contact {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: -2em;
-  }
-  .first-footer {
-    margin-left: -7em;
-  }
-  .footer-contacts {
-    line-height: 1.5em;
-    margin-left: 10em;
-  }
-  .footer-contacts iframe {
-    margin-top: 0em;
-    margin-left: -5em;
-    width: 500px;
-    height: 331px;
-  }
-  #rek-header {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 5.5em;
-  }
-}
-@media screen and (max-width: 992px) {
-  .first-header h2 {
-    font-size: 1em;
-    margin-left: 2px;
-  }
-
-  .second-header img {
-    width: 192px;
-    margin-top: 2em;
-    margin-left: -8em;
-  }
-  .second-header a {
-    margin-left: 1em;
-    color: #7d93b2;
-    font-size: 14px;
-  }
-  #service-button {
-    font-size: 138px;
-    margin-left: 54px;
-    margin-top: -104px;
-    color: #7d93b2;
-  }
-  .third-header {
-    margin-left: 32px;
-  }
-  .third-header i {
-    font-size: 31px;
-    margin-left: 3em;
-  }
-  .third-header p {
-    font-size: 12px;
-    padding-right: 0em;
-    margin-left: 9px;
-    padding-top: 7px;
-  }
-  .services-header p {
-    font-size: 20px;
-  }
-  .services-possibilities {
-    margin-left: 10em;
-    margin-top: 3em;
-  }
-  .services-possibilities i {
-    font-size: 37px;
-    margin-left: 46px;
-  }
-  .services-possibilities h2 {
-    /* padding-left: 3.6em; */
-  }
-  #packing {
-    padding-left: 1.8em;
-  }
-  #destroy-services {
-    margin-top: 1em;
-  }
-  #picking-services {
-    margin-left: 2em;
-    margin-top: 0em;
-  }
-  .services-possibilities div {
-    margin-left: 1em;
-    padding-right: 11em;
-  }
-  .services-possibilities button {
-    margin-left: 2.3em;
-  }
-  #travelling-stuffs {
-    margin-left: 0.9em;
-  }
-  #travelling-stuffs i {
-    margin-top: -2em;
-    margin-left: 16.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #move-stuffsvel {
-    margin-left: -0.1em;
-  }
-  #move-stuffsvel i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #packing-stuffs {
-    margin-left: -0.1em;
-  }
-  #packing-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #helpers-stuffs {
-    margin-left: -0.1em;
-  }
-  #helpers-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #destroy-stuffsa {
-    margin-left: -0.1em;
-  }
-  #destroy-stuffsa i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  .prices-header p {
-    font-size: 20px;
-  }
-  .prices-possibilities {
-    margin-left: 10em;
-    margin-top: 3em;
-  }
-  .prices-possibilities h2 {
-    padding-left: 4.6em;
-  }
-  .prices-possibilities h3 {
-    margin-left: 5em;
-  }
-  .prices-possibilities div {
-    margin-left: 2em;
-    padding-right: 19em;
-  }
-  .prices-stars {
-    margin-left: 1.2em;
-  }
-  .third-body h2 {
-    font-size: 22px;
-  }
-  .third-body p {
-    margin-left: 22px;
-    margin-right: 31px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #contact {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: -2em;
-  }
-  .footer-contacts {
-    line-height: 1.5em;
-    margin-left: 10em;
-  }
-  .footer-contacts iframe {
-    margin-top: 24em;
-    margin-left: -23em;
-    width: 500px;
-  }
-  #rek-header {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 5.5em;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .first-header h2 {
-    font-size: 1em;
-    margin-left: 2px;
-  }
-
-  .second-header img {
-    width: 138px;
-    margin-top: 2em;
-    margin-left: -8em;
-  }
-  .second-header a {
-    margin-left: 1em;
-    color: #7d93b2;
-    font-size: 14px;
-  }
-  #service-button {
-    font-size: 16px;
-    margin-left: -10px;
-    margin-top: 28px;
-    color: #7d93b2;
-  }
-  .third-header {
-    margin-left: 32px;
-  }
-  .third-header i {
-    font-size: 26px;
-    margin-left: 2em;
-  }
-  .third-header p {
-    font-size: 10px;
-    padding-right: 0em;
-    margin-left: 3px;
-    padding-top: 7px;
-  }
-  .services-header p {
-    font-size: 20px;
-  }
-  .services-possibilities {
-    margin-left: 10em;
-    margin-top: 3em;
-  }
-  .services-possibilities i {
-    font-size: 37px;
-    margin-left: 106px;
-  }
-  .services-possibilities h2 {
-    padding-left: 3.6em;
-  }
-  .services-possibilities div {
-    margin-left: 2em;
-    padding-right: 19em;
-  }
-  .services-possibilities button {
-    margin-left: 5.3em;
-  }
-  #travelling-stuffs {
-    margin-left: -0.1em;
-  }
-  #travelling-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #move-stuffsvel {
-    margin-left: -0.1em;
-  }
-  #move-stuffsvel i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #packing-stuffs {
-    margin-left: -0.1em;
-  }
-  #packing-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #helpers-stuffs {
-    margin-left: -0.1em;
-  }
-  #helpers-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #destroy-stuffsa {
-    margin-left: -0.1em;
-  }
-  #destroy-stuffsa i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  .prices-header p {
-    font-size: 20px;
-  }
-  .prices-possibilities {
-    margin-left: 10em;
-    margin-top: 3em;
-  }
-  .prices-possibilities h2 {
-    padding-left: 4.6em;
-  }
-  .prices-possibilities h3 {
-    margin-left: 5em;
-  }
-  .prices-possibilities div {
-    margin-left: 2em;
-    padding-right: 19em;
-  }
-  .prices-stars {
-    margin-left: 1.2em;
-  }
-  .third-body h2 {
-    font-size: 22px;
-  }
-  .third-body p {
-    margin-left: 22px;
-    margin-right: 31px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #contact {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: -2em;
-  }
-  .footer-contacts {
-    line-height: 1.5em;
-    margin-left: 10em;
-  }
-  .footer-contacts iframe {
-    margin-top: 24em;
-    margin-left: -23em;
-    width: 500px;
-  }
-  #rek-header {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 5.5em;
-  }
-}
-
-@media screen and (max-width: 567px) {
-  .first-header h2 {
-    font-size: 1em;
-    margin-left: 2px;
-  }
-
-  .second-header img {
-    width: 128px;
-    margin-top: 2em;
-    margin-left: -11em;
-  }
-  .second-header a {
-    margin-left: 1em;
-    color: #7d93b2;
-    font-size: 11px;
-  }
-  #service-button {
-    font-size: 16px;
-    margin-left: -10px;
-    margin-top: 28px;
-    color: #7d93b2;
-  }
-  .third-header {
-    margin-left: 32px;
-  }
-  .third-header i {
-    font-size: 24px;
-  }
-  .third-header p {
-    font-size: 10px;
-    padding-right: 0em;
-    margin-left: 3px;
-    padding-top: 7px;
-  }
-  .services-header p {
-    font-size: 20px;
-  }
-  .services-possibilities {
-    margin-left: 3em;
-    margin-top: 3em;
-  }
-  .services-possibilities i {
-    font-size: 37px;
-    margin-left: 106px;
-  }
-  .services-possibilities h2 {
-    padding-left: 3.6em;
-  }
-  .services-possibilities div {
-    margin-left: 2em;
-    padding-right: 19em;
-  }
-  .services-possibilities button {
-    margin-left: 5.3em;
-  }
-  #travelling-stuffs {
-    margin-left: -0.1em;
-  }
-  #travelling-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #move-stuffsvel {
-    margin-left: -0.1em;
-  }
-  #move-stuffsvel i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #packing-stuffs {
-    margin-left: -0.1em;
-  }
-  #packing-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #helpers-stuffs {
-    margin-left: -0.1em;
-  }
-  #helpers-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  #destroy-stuffsa {
-    margin-left: -0.1em;
-  }
-  #destroy-stuffsa i {
-    margin-top: -2em;
-    margin-left: 13.2em;
-    font-size: 23px;
-    background: none;
-  }
-  .prices-header p {
-    font-size: 20px;
-  }
-  .prices-possibilities {
-    margin-left: 3em;
-    margin-top: 3em;
-  }
-  .prices-possibilities h2 {
-    padding-left: 4.6em;
-  }
-  .prices-possibilities h3 {
-    margin-left: 5em;
-  }
-  .prices-possibilities div {
-    margin-left: 2em;
-    padding-right: 19em;
-  }
-  .prices-stars {
-    margin-left: 1.2em;
-  }
-  .third-body h2 {
-    font-size: 22px;
-  }
-  .third-body p {
-    margin-left: 22px;
-    margin-right: 31px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #contact {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: -2em;
-  }
-  .footer-contacts {
-    line-height: 1.5em;
-    margin-left: 3em;
-  }
-  .footer-contacts iframe {
-    margin-top: 24em;
-    margin-left: -17em;
-    width: 417px;
-  }
-  #rek-header {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 5.5em;
-  }
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .first-header h2 {
     font-size: 12px;
     margin-left: 11px;
@@ -1900,25 +1268,25 @@ body {
     color: #7d93b2;
   }
   .third-header {
-    margin-left: -39px;
+    margin-left: -113px;
   }
   .third-header i {
     font-size: 33px;
-    margin-left: 3em;
+    margin-left: 5em;
     line-height: 2em;
   }
   .third-header p {
     font-size: 14px;
     padding-right: 0em;
     margin-left: 8px;
-    padding-top: 7px;
+    padding-top: 25px;
   }
   .services-header p {
     font-size: 20px;
-    margin-left: 60px;
+    margin-left: 4px;
   }
   .services-possibilities {
-    margin-left: -1em;
+    margin-left: -27px;
     margin-top: 3em;
   }
   .services-possibilities i {
@@ -1929,7 +1297,7 @@ body {
     padding-left: 3.6em;
   }
   .services-possibilities div {
-    margin-left: 1.4em;
+    margin-left: 1.8em;
     padding-right: 19em;
   }
   .services-possibilities button {
@@ -1940,47 +1308,57 @@ body {
     font-weight: bold;
   }
   #travelling-stuffs {
-    margin-left: -11px;
+    margin-left: 5px;
+    padding: 1em;
+    margin-right: 0px;
   }
   #travelling-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
+    margin-top: -1.5em;
+    margin-left: 12.2em;
     font-size: 23px;
     background: none;
   }
-  #move-stuffsvel {
-    margin-left: -11px;
+  #move-stuffs {
+    margin-left: 5px;
+    padding: 1em;
+    margin-right: 0px;
   }
-  #move-stuffsvel i {
-    margin-top: -2em;
-    margin-left: 13.2em;
+  #move-stuffs i {
+    margin-top: -1.5em;
+    margin-left: 12.2em;
     font-size: 23px;
     background: none;
   }
   #packing-stuffs {
-    margin-left: -11px;
+    margin-left: 5px;
+    padding: 1em;
+    margin-right: 0px;
   }
   #packing-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
+    margin-top: -1.5em;
+    margin-left: 12.2em;
     font-size: 23px;
     background: none;
   }
   #helpers-stuffs {
-    margin-left: -11px;
+    margin-left: 5px;
+    padding: 1em;
+    margin-right: 0px;
   }
   #helpers-stuffs i {
-    margin-top: -2em;
-    margin-left: 13.2em;
+    margin-top: -1.5em;
+    margin-left: 12.2em;
     font-size: 23px;
     background: none;
   }
-  #destroy-stuffsa {
-    margin-left: -11px;
+  #destroy-stuffs {
+    margin-left: 5px;
+    padding: 1em;
+    margin-right: 0px;
   }
-  #destroy-stuffsa i {
-    margin-top: -2em;
-    margin-left: 13.2em;
+  #destroy-stuffs i {
+    margin-top: -1.5em;
+    margin-left: 12.2em;
     font-size: 23px;
     background: none;
   }
@@ -2039,7 +1417,7 @@ body {
   }
   .footer-contacts {
     line-height: 1.5em;
-    margin-left: -18px;
+    margin-left: -12px;
   }
   .footer-contacts iframe {
     margin-top: 24em;

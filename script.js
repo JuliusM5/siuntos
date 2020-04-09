@@ -1,3 +1,5 @@
+// function for scrolling
+
 $(document).ready(function () {
   // Add smooth scrolling to all links
   $("a").on("click", function (event) {
@@ -24,6 +26,9 @@ $(document).ready(function () {
     } // End if
   });
 });
+// function for scrolling end
+
+// button for moving to top
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
@@ -44,3 +49,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+// button for moving to top end
+$(function () {
+  $("#header").load("head.html");
+});
