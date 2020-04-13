@@ -22,23 +22,19 @@
   </head>
   <body>
     <!--first header -->
-    <div class="first-header" id="myHeader">
+    <div class="first-header">
       <div class="row">
-        <div class="col-4">
           <h2>Susisiekite&nbsp;su&nbsp;mumis:</h2>
-        </div>
-        <div class="col-4">
+       
           <h2>+370&nbsp;681&nbsp;92157</h2>
-        </div>
-        <div class="col-4">
+      
           <h2>info@kroviniams</h2>
-        </div>
       </div>
     </div>
+  
     <!-- Button to top -->
     <button onclick="topFunction()" id="myBtn">Į viršų</button>
     <!-- Button to top -->
-
     <!-- first header end -->
     <!--second header -->
 
@@ -50,13 +46,16 @@
           <div id="service-button">
             <div class="row">
               <div class="col">
-                <a href="#services-scroll">PASLAUGOS</a>
+                <a href="#menu" id="toggle"><span></span></a>
+                <div id="menu">
+                  <a href="#services-scroll">PASLAUGOS</a>
 
-                <a href="#prices-scroll">KAINOS</a>
+                  <a href="#prices-scroll">KAINOS</a>
 
-                <a href="#about-scroll">APIE&nbsp;MUS</a>
+                  <a href="#about-scroll">APIE&nbsp;MUS</a>
 
-                <a href="#contact-scroll">KONTAKTAI</a>  
+                  <a href="#contact-scroll">KONTAKTAI</a>  
+                </div>
               </div>         
             </div>
           </div>
@@ -68,18 +67,20 @@
     <!--third header -->
 
     <div class="third-header">
-      <div class="row">
-        <i class="fas fa-clock"></i>
-        <p>24/7 darbo laikas</p>
-        <i class="fas fa-head-side-mask"></i>
-        <p>Laikomės visų saugumo priemonių</p>
-        <i class="fas fa-shipping-fast"></i>
-        <p>Operatyvus darbas</p>
+      <div class="col">
+        <div class="row">
+          <i class="fas fa-clock"></i> 
+          <p>24/7 darbo laikas</p>
+          <i class="fas fa-head-side-mask"></i>
+          <p>Laikomės visų saugumo priemonių</p>
+          <i class="fas fa-shipping-fast"></i>
+          <p>Operatyvus darbas</p>
+        </div>
       </div>
     </div>
 
     <!--third header end -->
-
+      
     <!-- first body -->
     <div class="row">
       <div class="col-12">
@@ -89,66 +90,81 @@
       </div>
     </div>
     <!-- services body -->
-    <div class="services-possibilities">
-      <div class="row" style="font-weight: 5px;">
-        <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13); ">
-          <i class="fas fa-dolly"></i>
-          <h2>Krovinių&nbsp;gabenimas</h2>
-          <button onclick="document.getElementById('travelling-stuffs').style.display='block'">(Plačiau)</button>
-        </div>
-        <div id="travelling-stuffs">
-          <div onclick="document.getElementById('travelling-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
-          <p>
-            Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
-          </p>
-        </div>
-        <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);">
-          <i class="fas fa-dolly-flatbed"></i>
-          <h2>Prekių&nbsp;gabenimas</h2>
-          <button onclick="document.getElementById('move-stuffs').style.display='block'">(Plačiau)</button>
-        </div>
-        <div id="move-stuffs">
-          <div onclick="document.getElementById('move-stuff').style.display='none'"><i class="fas fa-times-circle"></i></div>
-          <p>
-            Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
-          </p>
-        </div>
-        <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);">
-          <i class="fas fa-archive"></i>
-          <h2 id="packing">Pakavimas</h2>
-         <button onclick="document.getElementById('packing-stuffs').style.display='block'">(Plačiau)</button>
-        </div>
-        <div id="packing-stuffs">
-          <div onclick="document.getElementById('packing-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
-          <p>
-            Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
-          </p>
-        </div>
-        <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);"id="picking-services">
-          <i class="fas fa-people-carry"></i>
-          <h2>Krovėjų&nbsp;paslaugos</h2>
-          <button onclick="document.getElementById('helpers-stuffs').style.display='block'">(Plačiau)</button>
-        </div>
-        <div id="helpers-stuffs">
-          <div onclick="document.getElementById('helpers-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
-          <p>
-            Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
-          </p>
-        </div>
-        <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);"id="destroy-services">
-          <i class="fas fa-recycle"></i>
-          <h2>Daiktų&nbsp;utilizavimas</h2>
-          <button onclick="document.getElementById('destroy-stuffs').style.display='block'">(Plačiau)</button>
-        </div>
-        <div id="destroy-stuffs">
-          <div onclick="document.getElementById('destroy-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
-          <p>
-            Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
-          </p>
+      <div class="container" id="omega">
+        <div class="row">
+          <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                  <div class="MultiCarousel-inner">
+                      <div class="item">
+                          <div class="pad15">
+                              <p class="lead"> <i class="fas fa-dolly"></i></p>
+                              <h2>Krovinių&nbsp;gabenimas</h2>
+                              <button onclick="document.getElementById('travelling-stuffs').style.display='block'">(Plačiau)</button>
+                          </div>
+                      </div>
+                      <div id="travelling-stuffs">
+                        <div onclick="document.getElementById('travelling-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+                        <p>
+                          Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
+                        </p>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                              <p class="lead"> <i class="fas fa-dolly-flatbed"></i></p>
+                              <h2>Prekių&nbsp;gabenimas</h2>
+                              <button onclick="document.getElementById('move-stuffs').style.display='block'">(Plačiau)</button>
+                          </div>
+                      </div>
+                      <div id="move-stuffs">
+                        <div onclick="document.getElementById('move-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+                        <p>
+                          Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
+                        </p>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                              <p class="lead"><i class="fas fa-archive"></i></p>
+                              <h2 id="packing">Pakavimas</h2>
+                               <button onclick="document.getElementById('packing-stuffs').style.display='block'">(Plačiau)</button>
+                          </div>
+                      </div>
+                      <div id="packing-stuffs">
+                        <div onclick="document.getElementById('packing-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+                        <p>
+                          Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
+                        </p>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                              <p class="lead"><i class="fas fa-people-carry"></i></p>
+                              <h2>Krovėjų&nbsp;paslaugos</h2>
+                              <button onclick="document.getElementById('helpers-stuffs').style.display='block'">(Plačiau)</button>
+                          </div>
+                      </div>
+                      <div id="helpers-stuffs">
+                        <div onclick="document.getElementById('helpers-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+                        <p>
+                          Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
+                        </p>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                              <p class="lead"> <i class="fas fa-recycle"></i></p>
+                              <h2>Daiktų&nbsp;utilizavimas</h2>
+                              <button onclick="document.getElementById('destroy-stuffs').style.display='block'">(Plačiau)</button>
+                          </div>
+                      </div>
+                      <div id="destroy-stuffs">
+                        <div onclick="document.getElementById('destroy-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+                        <p>
+                          Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
+                        </p>
+                      </div>
+                  </div>
+                  <button class="btn btn-primary leftLst"><i class="fas fa-angle-left"></i></button>
+                  <button class="btn btn-primary rightLst"><i class="fas fa-angle-right"></i></button>
+              </div>
         </div>
       </div>
-    </div>
-    
     <!-- services body  end-->
     <!--first body end -->
 
@@ -166,7 +182,7 @@
     <div class="prices-possibilities">
       <div class="row">
         <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);">
-          <h2>Vairuotojas&nbsp;su&nbsp;auto- mobiliu&nbsp;(be&nbsp;krovos &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;darbų)</h2>
+          <h2>Vairuotojas&nbsp;su&nbsp;auto- mobiliu&nbsp;(be&nbsp;krovos &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;darbų)</h2>
           <h3>14,00&nbsp;€/&nbsp;val.*</h3>
         </div>
         <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);">
@@ -202,7 +218,7 @@
           </p>
           <p style="margin-top: 2em;">
             **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karantino laikotarpiu
-            utilizavimo paslaugos negalimos
+            utilizavimo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paslaugos negalimos
           </p>
         </div>
       </div>
