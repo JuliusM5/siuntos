@@ -6,7 +6,6 @@ html {
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: rgba(248, 246, 248, 1);
 }
 
 /* header */
@@ -290,20 +289,20 @@ body {
 }
 /* text for placiau */
 /* responsive */
-@media screen and (min-width: 1662px) {
+@media screen and (max-width: 1920px) and (min-width: 1662px) {
   /* header */
   html {
     margin-left: 150px;
   }
   .first-header {
     color: #234c87;
-    margin-left: -13em;
+    margin-left: -10.9em;
     margin-top: 1em;
   }
   .first-header h2 {
     font-size: 13px;
     color: #234c87;
-    margin-left: 20.5em;
+    margin-left: 17.8em;
   }
   /* following header text */
   .fixed {
@@ -312,8 +311,8 @@ body {
     left: 0;
     width: 100%;
     color: #234c87;
-    margin-left: -13em;
-    margin-top: 1em;
+    margin-left: 1em;
+    margin-top: -1em;
   }
   /* following header text end*/
 
@@ -328,7 +327,7 @@ body {
 
   #service-button {
     font-size: 16px;
-    margin-left: 3em;
+    margin-left: -2.2em;
     margin-top: 3em;
     color: #7d93b2;
     font-weight: bold;
@@ -340,7 +339,7 @@ body {
     color: #7d93b2;
   }
   .third-header {
-    margin-left: -6.9em;
+    margin-left: -4.8em;
     font-family: Helvetica;
     color: #7d93b2;
     margin-top: 5em;
@@ -348,7 +347,7 @@ body {
   .third-header i {
     color: #fe4961;
     font-size: 1.9em;
-    margin-left: 4.1em;
+    margin-left: 3em;
   }
   .third-header p {
     padding-right: 5em;
@@ -362,7 +361,7 @@ body {
     color: #234c87;
     font-size: 15px;
     margin-top: 4em;
-    margin-left: -60em;
+    margin-left: -57em;
   }
 
   /* header end */
@@ -410,15 +409,15 @@ body {
     font-weight: bold;
     color: #234c87;
     margin-top: 2em;
-    margin-left: -27em;
+    margin-left: -29em;
   }
   .prices-header h2 {
     font-size: 24px;
   }
   .prices-possibilities {
-    margin-left: 8.3em;
-    margin-top: 5.5em;
-    width: 63em;
+    margin-left: 5.1em;
+    margin-top: 2.5em;
+    width: 62%;
   }
   .prices-possibilities div .col-2 {
     margin-left: 0.6em;
@@ -429,11 +428,11 @@ body {
   }
   .prices-possibilities h2 {
     color: #4c6280;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 4.3em;
     text-align: center;
-    padding-right: 4em;
-    margin-left: 0.1em;
+    padding-right: 3em;
+    margin-left: 4px;
   }
   .prices-possibilities h3 {
     color: #4c6280;
@@ -442,13 +441,15 @@ body {
     text-align: center;
   }
   #packing-help {
-    margin-left: 17.5em;
     margin-top: 1em;
-    height: 12em;
+    margin-left: 18em;
+  }
+  #packing-help h3 {
+    margin-top: 5em;
   }
   .prices-stars {
     color: #4c6280;
-    margin-left: 3em;
+    margin-left: 6em;
     margin-top: 3.5em;
     line-height: 2.6px;
     font-size: 13px;
@@ -458,42 +459,42 @@ body {
     margin-top: 4.3em;
     text-align: center;
     font-size: 23px;
-    margin-left: -34em;
+    margin-left: -38em;
   }
   .third-body p {
     color: #4c6280;
     text-align: left;
-    padding-left: 8em;
-    padding-right: 54em;
+    padding-left: 5em;
+    padding-right: 53em;
     margin-top: 3em;
   }
   /* body end*/
   /* footer */
   .first-footer {
-    margin-left: 2em;
+    margin-left: -1.5em;
   }
   #contact {
     color: #4c6280;
     font-size: 23px;
     margin-top: 4.3em;
     text-align: center;
-    margin-left: -35em;
+    margin-left: -37em;
   }
   .footer-contacts {
     margin-top: 5em;
     color: #4c6280;
     line-height: 7.9px;
-    margin-left: 1em;
-    font-size: 16px;
+    margin-left: 7em;
+    font-size: 14px;
   }
   .footer-contacts.radvilenu {
     margin-left: 30em;
   }
   .footer-contacts iframe {
     margin-top: -3px;
-    margin-left: -23.6em;
-    width: 412px;
-    height: 231px;
+    margin-left: -31.6em;
+    width: 448px;
+    height: 221px;
   }
   .second-footer {
     color: #4c6280;
@@ -515,7 +516,7 @@ body {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 55em;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -530,8 +531,8 @@ body {
   /* text for placiau */
   #travelling-slider {
     text-align: center;
-    margin-left: 0em;
-    margin-right: 19em;
+    margin-left: -13em;
+    margin-right: 40em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
     padding: 2em;
@@ -541,14 +542,14 @@ body {
   }
   .fas.fa-times-circle {
     margin-top: -2.3em;
-    margin-left: 24.5em;
+    margin-left: 20.5em;
     position: absolute;
   }
 
   #move-slider {
     text-align: center;
-    margin-left: 0em;
-    margin-right: 19em;
+    margin-left: -13em;
+    margin-right: 40em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
     padding: 2em;
@@ -558,8 +559,8 @@ body {
   }
   #packing-slider {
     text-align: center;
-    margin-left: 0em;
-    margin-right: 19em;
+    margin-left: -13em;
+    margin-right: 40em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
     padding: 2em;
@@ -569,8 +570,8 @@ body {
   }
   #helpers-slider {
     text-align: center;
-    margin-left: 0em;
-    margin-right: 19em;
+    margin-left: -13em;
+    margin-right: 40em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
     padding: 2em;
@@ -580,8 +581,8 @@ body {
   }
   #destroy-slider {
     text-align: center;
-    margin-left: 0em;
-    margin-right: 19em;
+    margin-left: -13em;
+    margin-right: 40em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
     padding: 2em;
@@ -594,8 +595,8 @@ body {
     padding: 1px;
     margin: 10px;
     box-shadow: -3px 4px 12px rgba(0, 0, 0, 0.13);
-    width: 170px;
-    margin-left: 77px;
+    width: 174px;
+    margin-left: 136px;
   }
   .MultiCarousel .leftLst,
   .MultiCarousel .rightLst {
@@ -626,9 +627,17 @@ body {
     margin-bottom: 1em;
   }
   .regular.slider.slick-initialized.slick-slider {
-    width: 47%;
-    margin-left: 4em;
+    width: 42%;
+    margin-left: 5em;
     margin-right: 6em;
+  }
+  .slick-initialized .slick-slide {
+    display: block;
+    margin-left: -5em;
+  }
+  .slick-slide {
+    /* display: block; */
+    margin-left: -3em;
   }
 }
 @media screen and (max-width: 1661px) and (min-width: 1455px) {
@@ -638,13 +647,13 @@ body {
   }
   .first-header {
     color: #234c87;
-    margin-left: -13em;
+    margin-left: -10.9em;
     margin-top: 1em;
   }
   .first-header h2 {
     font-size: 13px;
     color: #234c87;
-    margin-left: 20.5em;
+    margin-left: 17.8em;
   }
   /* following header text */
   .fixed {
@@ -653,7 +662,7 @@ body {
     left: 0;
     width: 100%;
     color: #234c87;
-    margin-left: -13em;
+    margin-left: 1em;
     margin-top: 1em;
   }
   /* following header text end*/
@@ -669,7 +678,7 @@ body {
 
   #service-button {
     font-size: 16px;
-    margin-left: 3em;
+    margin-left: 2.8em;
     margin-top: 3em;
     color: #7d93b2;
     font-weight: bold;
@@ -681,7 +690,7 @@ body {
     color: #7d93b2;
   }
   .third-header {
-    margin-left: -6.9em;
+    margin-left: -4.8em;
     font-family: Helvetica;
     color: #7d93b2;
     margin-top: 5em;
@@ -689,7 +698,7 @@ body {
   .third-header i {
     color: #fe4961;
     font-size: 1.9em;
-    margin-left: 4.1em;
+    margin-left: 3em;
   }
   .third-header p {
     padding-right: 5em;
@@ -703,7 +712,7 @@ body {
     color: #234c87;
     font-size: 15px;
     margin-top: 4em;
-    margin-left: -15em;
+    margin-left: -27em;
   }
 
   /* header end */
@@ -751,14 +760,15 @@ body {
     font-weight: bold;
     color: #234c87;
     margin-top: 2em;
-    margin-left: -10em;
+    margin-left: -12em;
   }
   .prices-header h2 {
     font-size: 24px;
   }
   .prices-possibilities {
-    margin-left: 3.1em;
+    margin-left: 5.1em;
     margin-top: 2.5em;
+    width: 77%;
   }
   .prices-possibilities div .col-2 {
     margin-left: 0.6em;
@@ -772,8 +782,8 @@ body {
     font-size: 16px;
     margin-top: 4.3em;
     text-align: center;
-    padding-right: 4em;
-    margin-left: 0.5em;
+    padding-right: 2em;
+    margin-left: -5px;
   }
   .prices-possibilities h3 {
     color: #4c6280;
@@ -782,7 +792,11 @@ body {
     text-align: center;
   }
   #packing-help {
-    margin-left: 13.5em;
+    margin-top: 1em;
+    margin-left: 18em;
+  }
+  #packing-help h3 {
+    margin-top: 5em;
   }
   .prices-stars {
     color: #4c6280;
@@ -821,7 +835,7 @@ body {
     margin-top: 5em;
     color: #4c6280;
     line-height: 7.9px;
-    margin-left: 1em;
+    margin-left: 7em;
     font-size: 16px;
   }
   .footer-contacts.radvilenu {
@@ -830,7 +844,7 @@ body {
   .footer-contacts iframe {
     margin-top: -3px;
     margin-left: -6.6em;
-    width: 393px;
+    width: 355px;
     height: 229px;
   }
   .second-footer {
@@ -853,7 +867,7 @@ body {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 343px;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -933,7 +947,7 @@ body {
     margin: 10px;
     box-shadow: -3px 4px 12px rgba(0, 0, 0, 0.13);
     width: 170px;
-    margin-left: -25px;
+    margin-left: -84px;
   }
   .MultiCarousel .leftLst,
   .MultiCarousel .rightLst {
@@ -964,7 +978,7 @@ body {
     margin-bottom: 1em;
   }
   .regular.slider.slick-initialized.slick-slider {
-    width: 53%;
+    width: 56%;
     margin-left: 5em;
     margin-right: 6em;
   }
@@ -1206,7 +1220,7 @@ body {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 292px;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -1321,7 +1335,1045 @@ body {
     margin-left: 5.9em;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  /* header */
+  html {
+    margin-left: 150px;
+  }
+  .first-header {
+    color: #234c87;
+    margin-left: -12em;
+    padding: 9px;
+  }
+  .first-header h2 {
+    font-size: 13px;
+    color: #234c87;
+    margin-left: 19.8em;
+  }
+  /* following header text */
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #234c87;
+    margin-left: 0em;
+    padding: 9px;
+  }
+  .fixed h2 {
+    margin-left: 17.5em;
+  }
+  /* following header text end*/
+
+  .second-header {
+    margin-left: 11em;
+  }
+  .second-header img {
+    width: 222px;
+    margin-top: 3.9em;
+    margin-left: -8.8em;
+  }
+
+  #service-button {
+    font-size: 16px;
+    margin-left: 8.2em;
+    margin-top: 3em;
+    color: #7d93b2;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .second-header a {
+    text-decoration: none;
+    margin-left: 1.5em;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: -6.9em;
+    font-family: Helvetica;
+    color: #7d93b2;
+    margin-top: 5em;
+  }
+  .third-header i {
+    color: #fe4961;
+    font-size: 1.9em;
+    margin-left: 4.1em;
+  }
+  .third-header p {
+    padding-right: 5em;
+    margin-left: 1em;
+    padding-top: 7px;
+    font-size: 10px;
+  }
+  .services-header {
+    text-align: center;
+    font-weight: bold;
+    color: #234c87;
+    font-size: 15px;
+    margin-top: 4em;
+    margin-left: -15em;
+  }
+
+  /* header end */
+  /* body */
+  .MultiCarousel .MultiCarousel-inner .item {
+    width: 200px;
+  }
+  #omega {
+    display: none;
+  }
+  #destroy-item {
+    position: relative;
+  }
+  .services-possibilities {
+    margin-left: 16em;
+    margin-top: 4em;
+  }
+  .services-possibilities i {
+    color: #7d93b2;
+    font-size: 74px;
+    margin-left: 32px;
+    margin-top: 36px;
+    background-color: #e5f0ff;
+    border-radius: 55px;
+    padding: 13px;
+  }
+  .services-possibilities h2 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-align: center;
+  }
+  .services-possibilities button {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-align: center;
+    margin-left: 3.3em;
+    text-decoration: none;
+    background: none;
+    border: none;
+    margin-bottom: 1em;
+  }
+  .prices-header {
+    font-weight: bold;
+    color: #234c87;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .prices-header h2 {
+    font-size: 24px;
+  }
+
+  .prices-possibilities {
+    margin-left: 9em;
+    margin-top: 2.5em;
+    width: 78%;
+  }
+  .prices-possibilities div .col-2 {
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  #work-word {
+    margin-left: 0em;
+    margin-top: -1.2em;
+  }
+  .prices-possibilities h2 {
+    color: #4c6280;
+    font-size: 12px;
+    margin-top: 4.3em;
+    text-align: center;
+    padding-right: 4em;
+    margin-left: 0.4em;
+  }
+  .prices-possibilities h3 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 3.3em;
+    text-align: center;
+  }
+  #packing-help {
+    margin-left: 18.5em;
+    margin-top: 1em;
+    height: 13em;
+  }
+  .prices-stars {
+    color: #4c6280;
+    margin-left: 12em;
+    margin-top: 3.5em;
+    line-height: 2.6px;
+    font-size: 13px;
+  }
+  .third-body h2 {
+    color: #4c6280;
+    margin-top: 4.3em;
+    text-align: center;
+    font-size: 23px;
+    margin-left: -8em;
+  }
+  .third-body p {
+    color: #4c6280;
+    text-align: left;
+    padding-left: 10em;
+    padding-right: 20em;
+    margin-top: 3em;
+  }
+  /* body end*/
+  /* footer */
+  .first-footer {
+    margin-left: 9.3em;
+  }
+  #contact {
+    color: #4c6280;
+    font-size: 23px;
+    margin-top: 4.3em;
+    text-align: center;
+    margin-left: -14.4em;
+  }
+  .footer-contacts {
+    margin-top: 5em;
+    color: #4c6280;
+    line-height: 7.9px;
+    margin-left: 1em;
+    font-size: 13px;
+  }
+  .footer-contacts.radvilenu {
+    margin-left: 30em;
+  }
+  .footer-contacts iframe {
+    margin-top: -3px;
+    margin-left: -10.6em;
+    width: 354px;
+    height: 221px;
+  }
+  .second-footer {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 5em;
+    text-align: center;
+    margin-left: -8em;
+  }
+  #rek-header {
+    margin-top: 1.8em;
+    font-size: 20px;
+  }
+  .rek-contacts {
+    margin-top: 1.7em;
+  }
+  /* footer end */
+  /* button to top */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 302px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  /* button to top end */
+  /* text for placiau */
+  #travelling-slider {
+    text-align: center;
+    margin-left: 0.4em;
+    margin-right: 14.5em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  .fas.fa-times-circle {
+    margin-top: -2.3em;
+    margin-left: 21em;
+    position: absolute;
+  }
+
+  #move-slider {
+    text-align: center;
+    margin-left: 0.4em;
+    margin-right: 14.5em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #packing-slider {
+    text-align: center;
+    margin-left: 0.4em;
+    margin-right: 14.5em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #helpers-slider {
+    text-align: center;
+    margin-left: 0.4em;
+    margin-right: 14.5em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #destroy-slider {
+    text-align: center;
+    margin-left: 0.4em;
+    margin-right: 14.5em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  .love {
+    text-align: center;
+    padding: 1px;
+    margin: 10px;
+    box-shadow: -3px 4px 12px rgba(0, 0, 0, 0.13);
+    width: 170px;
+    margin-left: 4.8em;
+  }
+  .MultiCarousel .leftLst,
+  .MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+  }
+  .love i {
+    color: #7d93b2;
+    font-size: 47px;
+    background-color: #e5f0ff;
+    border-radius: 55px;
+    padding: 13px;
+    margin-top: 23px;
+  }
+  .love h2 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-left: 1px;
+  }
+  .love button {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-decoration: none;
+    background: none;
+    border: none;
+    margin-bottom: 1em;
+  }
+  .regular.slider.slick-initialized.slick-slider {
+    width: 65%;
+    margin-left: 5.9em;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  /* header */
+  html {
+    margin-left: 150px;
+  }
+  .first-header {
+    color: #234c87;
+    margin-left: -12em;
+    padding: 9px;
+  }
+  .first-header h2 {
+    font-size: 13px;
+    color: #234c87;
+    margin-left: 19.8em;
+  }
+  /* following header text */
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #234c87;
+    margin-left: 0em;
+    padding: 9px;
+  }
+  .fixed h2 {
+    margin-left: 17.5em;
+  }
+  /* following header text end*/
+
+  .second-header {
+    margin-left: 11em;
+  }
+  .second-header img {
+    width: 222px;
+    margin-top: 3.9em;
+    margin-left: -8.8em;
+  }
+
+  #service-button {
+    font-size: 16px;
+    margin-left: 8.2em;
+    margin-top: 3em;
+    color: #7d93b2;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .second-header a {
+    text-decoration: none;
+    margin-left: 1.5em;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: -6.9em;
+    font-family: Helvetica;
+    color: #7d93b2;
+    margin-top: 5em;
+  }
+  .third-header i {
+    color: #fe4961;
+    font-size: 1.9em;
+    margin-left: 4.1em;
+  }
+  .third-header p {
+    padding-right: 5em;
+    margin-left: 1em;
+    padding-top: 7px;
+    font-size: 10px;
+  }
+  .services-header {
+    text-align: center;
+    font-weight: bold;
+    color: #234c87;
+    font-size: 15px;
+    margin-top: 4em;
+    margin-left: -15em;
+  }
+
+  /* header end */
+  /* body */
+  .MultiCarousel .MultiCarousel-inner .item {
+    width: 200px;
+  }
+  #omega {
+    display: none;
+  }
+  #destroy-item {
+    position: relative;
+  }
+  .services-possibilities {
+    margin-left: 16em;
+    margin-top: 4em;
+  }
+  .services-possibilities i {
+    color: #7d93b2;
+    font-size: 74px;
+    margin-left: 32px;
+    margin-top: 36px;
+    background-color: #e5f0ff;
+    border-radius: 55px;
+    padding: 13px;
+  }
+  .services-possibilities h2 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-align: center;
+  }
+  .services-possibilities button {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-align: center;
+    margin-left: 3.3em;
+    text-decoration: none;
+    background: none;
+    border: none;
+    margin-bottom: 1em;
+  }
+  .prices-header {
+    font-weight: bold;
+    color: #234c87;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .prices-header h2 {
+    font-size: 24px;
+  }
+
+  .prices-possibilities {
+    margin-left: 8em;
+    margin-top: 2.5em;
+    width: 78%;
+  }
+  .prices-possibilities div .col-2 {
+    margin-left: 1.4em;
+    margin-top: 1em;
+  }
+  #work-word {
+    margin-left: 0em;
+    margin-top: -1.2em;
+  }
+  .prices-possibilities h2 {
+    color: #4c6280;
+    font-size: 13px;
+    margin-top: 4.3em;
+    text-align: center;
+    padding-right: 4em;
+    margin-left: -0.1em;
+  }
+  .prices-possibilities h3 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 3.3em;
+    text-align: center;
+  }
+  #packing-help {
+    margin-left: 18.5em;
+    margin-top: 1em;
+    height: 13em;
+  }
+  .prices-stars {
+    color: #4c6280;
+    margin-left: 11em;
+    margin-top: 3.5em;
+    line-height: 2.6px;
+    font-size: 13px;
+  }
+  .third-body h2 {
+    color: #4c6280;
+    margin-top: 4.3em;
+    text-align: center;
+    font-size: 23px;
+    margin-left: -10em;
+  }
+  .third-body p {
+    color: #4c6280;
+    text-align: left;
+    padding-left: 10em;
+    padding-right: 19em;
+    margin-top: 3em;
+  }
+  /* body end*/
+  /* footer */
+  .first-footer {
+    margin-left: 9.5em;
+  }
+  #contact {
+    color: #4c6280;
+    font-size: 23px;
+    margin-top: 3.3em;
+    text-align: center;
+    margin-left: -16.4em;
+  }
+  .footer-contacts {
+    margin-top: 5em;
+    color: #4c6280;
+    line-height: 7.9px;
+    margin-left: 1em;
+    font-size: 13px;
+  }
+  .footer-contacts.radvilenu {
+    margin-left: 30em;
+  }
+  .footer-contacts iframe {
+    margin-top: -3px;
+    margin-left: -10.6em;
+    width: 354px;
+    height: 221px;
+  }
+  .second-footer {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 5em;
+    text-align: center;
+    margin-left: -8em;
+  }
+  #rek-header {
+    margin-top: 1.8em;
+    font-size: 20px;
+  }
+  .rek-contacts {
+    margin-top: 1.7em;
+  }
+  /* footer end */
+  /* button to top */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 302px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  /* button to top end */
+  /* text for placiau */
+  #travelling-slider {
+    text-align: center;
+    margin-left: -7em;
+    margin-right: 7em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  .fas.fa-times-circle {
+    margin-top: -2.3em;
+    margin-left: 21em;
+    position: absolute;
+  }
+
+  #move-slider {
+    text-align: center;
+    margin-left: -7em;
+    margin-right: 7em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #packing-slider {
+    text-align: center;
+    margin-left: -7em;
+    margin-right: 7em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #helpers-slider {
+    text-align: center;
+    margin-left: -7em;
+    margin-right: 7em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #destroy-slider {
+    text-align: center;
+    margin-left: -7em;
+    margin-right: 7em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  .love {
+    text-align: center;
+    padding: 1px;
+    margin: 10px;
+    box-shadow: -3px 4px 12px rgba(0, 0, 0, 0.13);
+    width: 170px;
+    margin-left: 4.8em;
+  }
+  .MultiCarousel .leftLst,
+  .MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+  }
+  .love i {
+    color: #7d93b2;
+    font-size: 47px;
+    background-color: #e5f0ff;
+    border-radius: 55px;
+    padding: 13px;
+    margin-top: 23px;
+  }
+  .love h2 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-left: 1px;
+  }
+  .love button {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-decoration: none;
+    background: none;
+    border: none;
+    margin-bottom: 1em;
+  }
+  .regular.slider.slick-initialized.slick-slider {
+    width: 65%;
+    margin-left: 5.9em;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 577px) {
+  /* header */
+  html {
+    margin-left: 150px;
+  }
+  .first-header {
+    color: #234c87;
+    margin-left: -12em;
+    padding: 9px;
+  }
+  .first-header h2 {
+    font-size: 13px;
+    color: #234c87;
+    margin-left: 19.8em;
+  }
+  /* following header text */
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #234c87;
+    margin-left: 0em;
+    padding: 9px;
+  }
+  .fixed h2 {
+    margin-left: 17.5em;
+  }
+  /* following header text end*/
+
+  .second-header {
+    margin-left: 11em;
+  }
+  .second-header img {
+    width: 222px;
+    margin-top: 3.9em;
+    margin-left: -8.8em;
+  }
+
+  #service-button {
+    font-size: 16px;
+    margin-left: 8.2em;
+    margin-top: 3em;
+    color: #7d93b2;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .second-header a {
+    text-decoration: none;
+    margin-left: 1.5em;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: -6.9em;
+    font-family: Helvetica;
+    color: #7d93b2;
+    margin-top: 5em;
+  }
+  .third-header i {
+    color: #fe4961;
+    font-size: 1.9em;
+    margin-left: 4.1em;
+  }
+  .third-header p {
+    padding-right: 5em;
+    margin-left: 1em;
+    padding-top: 7px;
+    font-size: 10px;
+  }
+  .services-header {
+    text-align: center;
+    font-weight: bold;
+    color: #234c87;
+    font-size: 15px;
+    margin-top: 4em;
+    margin-left: -15em;
+  }
+
+  /* header end */
+  /* body */
+  .MultiCarousel .MultiCarousel-inner .item {
+    width: 200px;
+  }
+  #omega {
+    display: none;
+  }
+  #destroy-item {
+    position: relative;
+  }
+  .services-possibilities {
+    margin-left: 16em;
+    margin-top: 4em;
+  }
+  .services-possibilities i {
+    color: #7d93b2;
+    font-size: 74px;
+    margin-left: 32px;
+    margin-top: 36px;
+    background-color: #e5f0ff;
+    border-radius: 55px;
+    padding: 13px;
+  }
+  .services-possibilities h2 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-align: center;
+  }
+  .services-possibilities button {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-align: center;
+    margin-left: 3.3em;
+    text-decoration: none;
+    background: none;
+    border: none;
+    margin-bottom: 1em;
+  }
+  .prices-header {
+    font-weight: bold;
+    color: #234c87;
+    margin-top: 2em;
+    margin-left: -8em;
+  }
+  .prices-header h2 {
+    font-size: 24px;
+  }
+  .prices-possibilities {
+    margin-left: 8.5em;
+    margin-top: 2.5em;
+    width: 75%;
+  }
+  .prices-possibilities div .col-2 {
+    margin-left: 1.6em;
+    margin-top: 1em;
+  }
+  #work-word {
+    margin-left: 0em;
+    margin-top: -1.2em;
+  }
+  .prices-possibilities h2 {
+    color: #4c6280;
+    font-size: 13px;
+    margin-top: 4.3em;
+    text-align: center;
+    padding-right: 4em;
+    margin-left: 0em;
+  }
+  .prices-possibilities h3 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 3.3em;
+    text-align: center;
+  }
+  #packing-help {
+    margin-left: 18.5em;
+    margin-top: 1em;
+    height: 13em;
+  }
+  .prices-stars {
+    color: #4c6280;
+    margin-left: 12em;
+    margin-top: 3.5em;
+    line-height: 2.6px;
+    font-size: 13px;
+  }
+  .third-body h2 {
+    color: #4c6280;
+    margin-top: 4.3em;
+    text-align: center;
+    font-size: 23px;
+    margin-left: -9.2em;
+  }
+  .third-body p {
+    color: #4c6280;
+    text-align: left;
+    padding-left: 10em;
+    padding-right: 22em;
+    margin-top: 3em;
+  }
+  /* body end*/
+  /* footer */
+  .first-footer {
+    margin-left: 9.5em;
+  }
+  #contact {
+    color: #4c6280;
+    font-size: 23px;
+    margin-top: 3.3em;
+    text-align: center;
+    margin-left: -16.4em;
+  }
+  .footer-contacts {
+    margin-top: 5em;
+    color: #4c6280;
+    line-height: 7.9px;
+    margin-left: 1em;
+    font-size: 13px;
+  }
+  .footer-contacts.radvilenu {
+    margin-left: 30em;
+  }
+  .footer-contacts iframe {
+    margin-top: -3px;
+    margin-left: -11.6em;
+    width: 341px;
+    height: 229px;
+  }
+  .second-footer {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 5em;
+    text-align: center;
+    margin-left: -14em;
+  }
+  #rek-header {
+    margin-top: 1.8em;
+    font-size: 20px;
+  }
+  .rek-contacts {
+    margin-top: 1.7em;
+  }
+  /* footer end */
+  /* button to top */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 320px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  /* button to top end */
+  /* text for placiau */
+  #travelling-slider {
+    text-align: center;
+    margin-left: -13em;
+    margin-right: 1em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  .fas.fa-times-circle {
+    margin-top: -2.3em;
+    margin-left: 21.5em;
+    position: absolute;
+  }
+
+  #move-slider {
+    text-align: center;
+    margin-left: -13em;
+    margin-right: 1em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #packing-slider {
+    text-align: center;
+    margin-left: -13em;
+    margin-right: 1em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #helpers-slider {
+    text-align: center;
+    margin-left: -13em;
+    margin-right: 1em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #destroy-slider {
+    text-align: center;
+    margin-left: -13em;
+    margin-right: 1em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  .love {
+    text-align: center;
+    padding: 1px;
+    margin: 10px;
+    box-shadow: -3px 4px 12px rgba(0, 0, 0, 0.13);
+    width: 170px;
+    margin-left: 4.8em;
+  }
+  .MultiCarousel .leftLst,
+  .MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+  }
+  .love i {
+    color: #7d93b2;
+    font-size: 47px;
+    background-color: #e5f0ff;
+    border-radius: 55px;
+    padding: 13px;
+    margin-top: 23px;
+  }
+  .love h2 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-left: 1px;
+  }
+  .love button {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-decoration: none;
+    background: none;
+    border: none;
+    margin-bottom: 1em;
+  }
+  .regular.slider.slick-initialized.slick-slider {
+    width: 65%;
+    margin-left: 5.9em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .regular.slider.slick-initialized.slick-slider {
+    display: none;
+  }
   #travelling-slider {
     display: none;
   }
@@ -1334,940 +2386,6 @@ body {
   #helpers-slider {
     display: none;
   }
-  #destroy-slider {
-    display: none;
-  }
-  .regular.slider {
-    display: none;
-  }
-  .first-header.fixed {
-    margin-left: 135em;
-    font-size: 1px;
-  }
-  /* Important styles */
-  #omega {
-    width: 75%;
-    margin-left: 13em;
-  }
-  #destroy-item {
-    margin-left: 9.5em;
-  }
-  .MultiCarousel {
-    float: left;
-    overflow: hidden;
-    padding: 15px;
-    width: 100%;
-    position: relative;
-  }
-  .MultiCarousel .MultiCarousel-inner {
-    transition: 1s ease all;
-    float: left;
-  }
-  .MultiCarousel .MultiCarousel-inner .item {
-    float: left;
-  }
-  .MultiCarousel .MultiCarousel-inner .item > div {
-    text-align: center;
-    padding: 37px;
-    margin: 10px;
-    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
-    width: 287px;
-  }
-  .MultiCarousel .leftLst,
-  .MultiCarousel .rightLst {
-    position: absolute;
-    border-radius: 50%;
-    top: calc(50% - 20px);
-    display: none;
-  }
-  .MultiCarousel .leftLst {
-    left: 0;
-    display: none;
-  }
-  .MultiCarousel .rightLst {
-    right: 0;
-    display: none;
-  }
-
-  .MultiCarousel .leftLst.over,
-  .MultiCarousel .rightLst.over {
-    pointer-events: none;
-    background: #ccc;
-  }
-  .MultiCarousel-inner i {
-    color: #7d93b2;
-    font-size: 33px;
-    background-color: #e5f0ff;
-    border-radius: 55px;
-    padding: 13px;
-  }
-  .MultiCarousel-inner h2 {
-    color: #4c6280;
-    font-size: 18px;
-    margin-left: 7px;
-  }
-  .MultiCarousel-inner button {
-    color: #4c6280;
-    font-size: 18px;
-    margin-top: 1.3em;
-    text-decoration: none;
-    background: none;
-    border: none;
-    margin-bottom: 1em;
-  }
-  .first-header.fixed {
-    margin-left: 5em;
-  }
-  .first-header {
-    color: #234c87;
-    margin-left: -0.3em;
-  }
-  .first-header h2 {
-    font-size: 18px;
-    margin-left: 172px;
-  }
-  .services-header {
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    margin-top: 1em;
-    margin-left: -6em;
-  }
-  .second-header a {
-    margin-left: 2em;
-  }
-  .second-header img {
-    width: 220px;
-    margin-top: 2em;
-    margin-left: -10em;
-  }
-  #service-button {
-    font-size: 16px;
-    margin-left: 10em;
-    margin-top: 1em;
-  }
-  .third-header {
-    margin-left: 13em;
-    margin-right: 17em;
-    margin-top: 3em;
-  }
-  .third-header i {
-    font-size: 24px;
-    margin-left: 0em;
-    line-height: 2em;
-  }
-  .third-header p {
-    font-size: 14px;
-    padding-right: 0em;
-    margin-left: 8px;
-    padding-top: 15px;
-  }
-  .container.row {
-    width: 19.8em;
-    margin-left: -7px;
-  }
-  .MultiCarousel .leftLst,
-  .MultiCarousel .rightLst {
-    position: absolute;
-    border-radius: 52%;
-    top: calc(50% - 17px);
-  }
-  .MultiCarousel .MultiCarousel-inner {
-    transition: 1s ease all;
-    float: left;
-    margin-left: -1em;
-  }
-
-  #myBtn {
-    margin-right: -3px;
-    font-weight: bold;
-    padding: 4px;
-  }
-  #travelling-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 21em;
-    width: 60%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #travelling-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #move-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 21em;
-    width: 60%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #move-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #packing-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 22em;
-    width: 60%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #packing-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-    position: absolute;
-  }
-  #helpers-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 41em;
-    width: 60%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-    margin-top: 22em;
-  }
-  #helpers-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #destroy-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 44em;
-    width: 60%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #destroy-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  .prices-header h2 {
-    font-size: 29px;
-    margin-left: -6em;
-    margin-top: -65px;
-  }
-  .prices-header p {
-    font-size: 20px;
-  }
-  .prices-possibilities {
-    margin-left: 145px;
-    width: 98%;
-  }
-  #picking-services {
-    margin-left: 19px;
-    padding-right: 19em;
-    margin-top: 0px;
-  }
-  #destroy-services {
-    margin-left: 19px;
-    padding-right: 19em;
-    margin-top: 0px;
-  }
-  .prices-possibilities h2 {
-    padding-left: 4.6em;
-  }
-  .prices-possibilities h3 {
-    margin-left: 5em;
-  }
-  .prices-possibilities div {
-    margin-left: 1.1em;
-    padding-right: 19em;
-  }
-  .prices-stars {
-    margin-left: 3.2em;
-    margin-right: 24em;
-  }
-  .third-body h2 {
-    font-size: 22px;
-    margin-left: -8.8em;
-    margin-top: 1em;
-  }
-  .third-body p {
-    margin-left: 206px;
-    width: 50%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #contact {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 17.4em;
-    float: left;
-  }
-  .footer-contacts {
-    margin-top: 3em;
-    margin-left: 7em;
-  }
-  .footer-contacts p {
-    line-height: 0.5em;
-    margin-left: -20px;
-    font-size: 15px;
-  }
-  .footer-contacts iframe {
-    margin-top: -8px;
-    margin-left: -11.1em;
-    width: 376px;
-  }
-  #rek-header {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 3.9em;
-  }
-  .second-footer {
-    color: #4c6280;
-    font-size: 17px;
-    margin-top: 4em;
-    margin-left: -12em;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 992px) {
-  .first-header.fixed {
-    margin-left: 2em;
-    font-size: 1px;
-  }
-  .first-header.fixed h2 {
-    margin-left: 4.9em;
-  }
-  /* Important styles */
-  #omega {
-    width: 54%;
-    margin-left: 5em;
-  }
-  #destroy-item {
-    margin-left: 9.5em;
-  }
-  .MultiCarousel {
-    float: left;
-    overflow: hidden;
-    padding: 15px;
-    width: 100%;
-    position: relative;
-  }
-  .MultiCarousel .MultiCarousel-inner {
-    transition: 1s ease all;
-    float: left;
-  }
-  .MultiCarousel .MultiCarousel-inner .item {
-    float: left;
-  }
-  .MultiCarousel .MultiCarousel-inner .item > div {
-    text-align: center;
-    padding: 37px;
-    margin: 10px;
-    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
-    width: 287px;
-  }
-  .MultiCarousel .leftLst,
-  .MultiCarousel .rightLst {
-    position: absolute;
-    border-radius: 50%;
-    top: calc(50% - 20px);
-    display: none;
-  }
-  .MultiCarousel .leftLst {
-    left: 0;
-    display: none;
-  }
-  .MultiCarousel .rightLst {
-    right: 0;
-    display: none;
-  }
-
-  .MultiCarousel .leftLst.over,
-  .MultiCarousel .rightLst.over {
-    pointer-events: none;
-    background: #ccc;
-  }
-  .MultiCarousel-inner i {
-    color: #7d93b2;
-    font-size: 33px;
-    background-color: #e5f0ff;
-    border-radius: 55px;
-    padding: 13px;
-  }
-  .MultiCarousel-inner h2 {
-    color: #4c6280;
-    font-size: 18px;
-    margin-left: 7px;
-  }
-  .MultiCarousel-inner button {
-    color: #4c6280;
-    font-size: 18px;
-    margin-top: 1.3em;
-    text-decoration: none;
-    background: none;
-    border: none;
-    margin-bottom: 1em;
-  }
-
-  .first-header {
-    color: #234c87;
-    margin-left: 9em;
-  }
-  .first-header h2 {
-    font-size: 18px;
-    margin-left: 18px;
-  }
-  .services-header {
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    margin-top: 1em;
-    margin-left: -20em;
-  }
-  .second-header a {
-    margin-left: 2em;
-  }
-  .second-header img {
-    width: 220px;
-    margin-top: 2em;
-    margin-left: -10em;
-  }
-  #service-button {
-    font-size: 16px;
-    margin-left: -4em;
-    margin-top: 1em;
-  }
-  .third-header {
-    margin-left: 3em;
-    margin-right: 27em;
-    margin-top: 3em;
-  }
-  .third-header i {
-    font-size: 24px;
-    margin-left: 0em;
-    line-height: 2em;
-  }
-  .third-header p {
-    font-size: 14px;
-    padding-right: 0em;
-    margin-left: 8px;
-    padding-top: 15px;
-  }
-  .container.row {
-    width: 19.8em;
-    margin-left: -7px;
-  }
-  .MultiCarousel .leftLst,
-  .MultiCarousel .rightLst {
-    position: absolute;
-    border-radius: 52%;
-    top: calc(50% - 17px);
-  }
-  .MultiCarousel .MultiCarousel-inner {
-    transition: 1s ease all;
-    float: left;
-    margin-left: -1em;
-  }
-
-  #myBtn {
-    margin-right: -3px;
-    font-weight: bold;
-    padding: 4px;
-  }
-  #travelling-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 21em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #travelling-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #move-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 21em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #move-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #packing-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 41em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #packing-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #helpers-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 23em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #helpers-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #destroy-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 44em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #destroy-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  .prices-header h2 {
-    font-size: 29px;
-    margin-left: -14em;
-    margin-top: -65px;
-  }
-  .prices-header p {
-    font-size: 20px;
-  }
-  .prices-possibilities {
-    margin-left: 17px;
-    width: 98%;
-  }
-  #picking-services {
-    margin-left: 19px;
-    padding-right: 19em;
-    margin-top: 0px;
-  }
-  #destroy-services {
-    margin-left: 19px;
-    padding-right: 19em;
-    margin-top: 0px;
-  }
-  .prices-possibilities h2 {
-    padding-left: 4.6em;
-  }
-  .prices-possibilities h3 {
-    margin-left: 5em;
-  }
-  .prices-possibilities div {
-    margin-left: 1.1em;
-    padding-right: 19em;
-  }
-  .prices-stars {
-    margin-left: 3.2em;
-    margin-right: 24em;
-  }
-  .third-body h2 {
-    font-size: 22px;
-    margin-left: -19.8em;
-    margin-top: 1em;
-  }
-  .third-body p {
-    margin-left: 77px;
-    width: 50%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #contact {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 12.4em;
-    float: left;
-  }
-  .footer-contacts {
-    margin-top: 3em;
-    margin-left: 2em;
-  }
-  .footer-contacts p {
-    line-height: 0.5em;
-    margin-left: -20px;
-    font-size: 13px;
-  }
-  .footer-contacts iframe {
-    margin-top: -8px;
-    margin-left: -14.1em;
-    width: 298px;
-  }
-  #rek-header {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 2.9em;
-  }
-  .second-footer {
-    color: #4c6280;
-    font-size: 15px;
-    margin-top: 5em;
-    margin-left: -30em;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 768px) {
-  .first-header.fixed {
-    margin-left: 85em;
-    font-size: 1px;
-  }
-  /* Important styles */
-  #omega {
-    width: 54%;
-    margin-left: 5em;
-  }
-  #destroy-item {
-    margin-left: 9.5em;
-  }
-  .MultiCarousel {
-    float: left;
-    overflow: hidden;
-    padding: 15px;
-    width: 100%;
-    position: relative;
-  }
-  .MultiCarousel .MultiCarousel-inner {
-    transition: 1s ease all;
-    float: left;
-  }
-  .MultiCarousel .MultiCarousel-inner .item {
-    float: left;
-  }
-  .MultiCarousel .MultiCarousel-inner .item > div {
-    text-align: center;
-    padding: 37px;
-    margin: 10px;
-    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
-    width: 287px;
-  }
-  .MultiCarousel .leftLst,
-  .MultiCarousel .rightLst {
-    position: absolute;
-    border-radius: 50%;
-    top: calc(50% - 20px);
-    display: none;
-  }
-  .MultiCarousel .leftLst {
-    left: 0;
-    display: none;
-  }
-  .MultiCarousel .rightLst {
-    right: 0;
-    display: none;
-  }
-
-  .MultiCarousel .leftLst.over,
-  .MultiCarousel .rightLst.over {
-    pointer-events: none;
-    background: #ccc;
-  }
-  .MultiCarousel-inner i {
-    color: #7d93b2;
-    font-size: 33px;
-    background-color: #e5f0ff;
-    border-radius: 55px;
-    padding: 13px;
-  }
-  .MultiCarousel-inner h2 {
-    color: #4c6280;
-    font-size: 18px;
-    margin-left: 7px;
-  }
-  .MultiCarousel-inner button {
-    color: #4c6280;
-    font-size: 18px;
-    margin-top: 1.3em;
-    text-decoration: none;
-    background: none;
-    border: none;
-    margin-bottom: 1em;
-  }
-
-  .first-header {
-    color: #234c87;
-    margin-left: 0em;
-  }
-  .first-header h2 {
-    font-size: 18px;
-    margin-left: 98px;
-  }
-  .services-header {
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    margin-top: 1em;
-    margin-left: -20em;
-  }
-  .second-header a {
-    margin-left: 2em;
-  }
-  .second-header img {
-    width: 220px;
-    margin-top: 2em;
-    margin-left: -10em;
-  }
-  #service-button {
-    font-size: 16px;
-    margin-left: -4em;
-    margin-top: 1em;
-  }
-  .third-header {
-    margin-left: 3em;
-    margin-right: 27em;
-    margin-top: 3em;
-  }
-  .third-header i {
-    font-size: 24px;
-    margin-left: 0em;
-    line-height: 2em;
-  }
-  .third-header p {
-    font-size: 14px;
-    padding-right: 0em;
-    margin-left: 8px;
-    padding-top: 15px;
-  }
-  .container.row {
-    width: 19.8em;
-    margin-left: -7px;
-  }
-  .MultiCarousel .leftLst,
-  .MultiCarousel .rightLst {
-    position: absolute;
-    border-radius: 52%;
-    top: calc(50% - 17px);
-  }
-  .MultiCarousel .MultiCarousel-inner {
-    transition: 1s ease all;
-    float: left;
-    margin-left: -1em;
-  }
-
-  #myBtn {
-    margin-right: -3px;
-    font-weight: bold;
-    padding: 4px;
-  }
-  #travelling-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 21em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #travelling-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #move-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 21em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #move-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #packing-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 41em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #packing-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #helpers-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 41em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #helpers-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  #destroy-stuffs {
-    margin-left: 0.1em;
-    padding: 1em;
-    margin-right: 132px;
-    font-size: 13px;
-    margin-top: 44em;
-    width: 82%;
-    position: absolute;
-    box-shadow: none;
-    background-color: white;
-  }
-  #destroy-stuffs i {
-    margin-top: -1.5em;
-    margin-left: 11.8em;
-    font-size: 20px;
-    background: none;
-  }
-  .prices-header h2 {
-    font-size: 29px;
-    margin-left: -14em;
-    margin-top: -65px;
-  }
-  .prices-header p {
-    font-size: 20px;
-  }
-  .prices-possibilities {
-    margin-left: 17px;
-    width: 98%;
-  }
-  #picking-services {
-    margin-left: 19px;
-    padding-right: 19em;
-    margin-top: 0px;
-  }
-  #destroy-services {
-    margin-left: 19px;
-    padding-right: 19em;
-    margin-top: 0px;
-  }
-  .prices-possibilities h2 {
-    padding-left: 4.6em;
-  }
-  .prices-possibilities h3 {
-    margin-left: 5em;
-  }
-  .prices-possibilities div {
-    margin-left: 1.1em;
-    padding-right: 19em;
-  }
-  .prices-stars {
-    margin-left: 3.2em;
-    margin-right: 24em;
-  }
-  .third-body h2 {
-    font-size: 22px;
-    margin-left: -19.8em;
-    margin-top: 1em;
-  }
-  .third-body p {
-    margin-left: 77px;
-    width: 50%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #contact {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 12.4em;
-    float: left;
-  }
-  .footer-contacts {
-    margin-top: 3em;
-    margin-left: 2em;
-  }
-  .footer-contacts p {
-    line-height: 0.5em;
-    margin-left: -20px;
-    font-size: 13px;
-  }
-  .footer-contacts iframe {
-    margin-top: -8px;
-    margin-left: -14.1em;
-    width: 298px;
-  }
-  #rek-header {
-    font-size: 1.5em;
-    margin-top: 1.3em;
-    margin-left: 2.9em;
-  }
-  .second-footer {
-    color: #4c6280;
-    font-size: 15px;
-    margin-top: 5em;
-    margin-left: -30em;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 576px) {
   /* Important styles */
   #toggle {
     display: block;
@@ -2512,6 +2630,7 @@ body {
     font-size: 13px;
     margin-top: 21em;
     width: 82%;
+    background-color: white;
   }
   #travelling-stuffs i {
     margin-top: -1.2em;
@@ -2526,6 +2645,7 @@ body {
     font-size: 13px;
     margin-top: 41em;
     width: 82%;
+    background-color: white;
   }
   #move-stuffs i {
     margin-top: -1.2em;
@@ -2540,6 +2660,7 @@ body {
     font-size: 13px;
     margin-top: 62em;
     width: 82%;
+    background-color: white;
   }
   #packing-stuffs i {
     margin-top: -1.2em;
@@ -2552,8 +2673,9 @@ body {
     padding: 1em;
     margin-right: 132px;
     font-size: 13px;
-    margin-top: 55em;
+    margin-top: 82em;
     width: 82%;
+    background-color: white;
   }
   #helpers-stuffs i {
     margin-top: -1.2em;
@@ -2569,6 +2691,7 @@ body {
     margin-top: 103em;
     width: 82%;
     position: relative;
+    background-color: white;
   }
   #destroy-stuffs i {
     margin-top: -1.2em;

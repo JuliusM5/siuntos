@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+  width: 70%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 49px;
+  /* margin-left: 7em; */
+}
+
+.regular.slider.slick-initialized.slick-slider .slick-prev:before {
+  color: black;
+}
+.regular.slider.slick-initialized.slick-slider .slick-next:before {
+  color: black;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+/* 
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+
+.slick-active {
+  opacity: 0.5;
+} */
+
+.slick-current {
+  opacity: 1;
+}
+.slick-slider {
+  margin-top: 1.5em;
+  margin-left: 2em;
+}
