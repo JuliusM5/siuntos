@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  position: relative;
+  /* position: relative; */
   min-width: 1200px;
   height: 100%;
 }
@@ -18,6 +18,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: white;
+  z-index: 1;
 }
 /* following header text end*/
 
@@ -289,10 +291,11 @@ body {
 }
 /* text for placiau */
 /* responsive */
-@media screen and (max-width: 1920px) and (min-width: 1662px) {
+@media screen and (min-width: 1921px) {
   /* header */
   html {
     margin-left: 150px;
+    margin-right: 15px;
   }
   .first-header {
     color: #234c87;
@@ -313,6 +316,7 @@ body {
     color: #234c87;
     margin-left: 1em;
     margin-top: -1em;
+    z-index: 1;
   }
   /* following header text end*/
 
@@ -492,8 +496,8 @@ body {
   }
   .footer-contacts iframe {
     margin-top: -3px;
-    margin-left: -31.6em;
-    width: 448px;
+    margin-left: -27.6em;
+    width: 366px;
     height: 221px;
   }
   .second-footer {
@@ -501,7 +505,11 @@ body {
     font-size: 18px;
     margin-top: 5em;
     text-align: center;
-    margin-left: -14em;
+    margin-left: -46em;
+    height: 3em;
+  }
+  .second-footer p {
+    padding-top: 3px;
   }
   #rek-header {
     margin-top: 1.8em;
@@ -516,7 +524,7 @@ body {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 55em;
+    right: 47.9em;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -530,7 +538,6 @@ body {
   /* button to top end */
   /* text for placiau */
   #travelling-slider {
-    text-align: center;
     margin-left: -13em;
     margin-right: 40em;
     margin-top: -4em;
@@ -542,12 +549,11 @@ body {
   }
   .fas.fa-times-circle {
     margin-top: -2.3em;
-    margin-left: 20.5em;
+    margin-left: 39.5em;
     position: absolute;
   }
 
   #move-slider {
-    text-align: center;
     margin-left: -13em;
     margin-right: 40em;
     margin-top: -4em;
@@ -558,7 +564,6 @@ body {
     position: relative;
   }
   #packing-slider {
-    text-align: center;
     margin-left: -13em;
     margin-right: 40em;
     margin-top: -4em;
@@ -569,7 +574,6 @@ body {
     position: relative;
   }
   #helpers-slider {
-    text-align: center;
     margin-left: -13em;
     margin-right: 40em;
     margin-top: -4em;
@@ -580,7 +584,358 @@ body {
     position: relative;
   }
   #destroy-slider {
+    margin-left: -13em;
+    margin-right: 40em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  .love {
     text-align: center;
+    padding: 1px;
+    margin: 10px;
+    box-shadow: -3px 4px 12px rgba(0, 0, 0, 0.13);
+    width: 174px;
+    margin-left: 136px;
+  }
+  .MultiCarousel .leftLst,
+  .MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+  }
+  .love i {
+    color: #7d93b2;
+    font-size: 47px;
+    background-color: #e5f0ff;
+    border-radius: 55px;
+    padding: 13px;
+    margin-top: 23px;
+  }
+  .love h2 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-left: 1px;
+  }
+  .love button {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-decoration: none;
+    background: none;
+    border: none;
+    margin-bottom: 1em;
+  }
+  .regular.slider.slick-initialized.slick-slider {
+    width: 42%;
+    margin-left: 5em;
+    margin-right: 6em;
+  }
+  .slick-initialized .slick-slide {
+    display: block;
+    margin-left: -5em;
+  }
+  .slick-slide {
+    /* display: block; */
+    margin-left: -3em;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 1662px) {
+  /* header */
+  html {
+    margin-left: 150px;
+    margin-right: 15px;
+  }
+  .first-header {
+    color: #234c87;
+    margin-left: -10.9em;
+    margin-top: 1em;
+  }
+  .first-header h2 {
+    font-size: 13px;
+    color: #234c87;
+    margin-left: 17.8em;
+  }
+  /* following header text */
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #234c87;
+    margin-left: 1em;
+    margin-top: -1em;
+    z-index: 1;
+  }
+  /* following header text end*/
+
+  .second-header {
+    margin-left: 11em;
+  }
+  .second-header img {
+    width: 222px;
+    margin-top: 3.9em;
+    margin-left: -8.8em;
+  }
+
+  #service-button {
+    font-size: 16px;
+    margin-left: -2.2em;
+    margin-top: 3em;
+    color: #7d93b2;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .second-header a {
+    text-decoration: none;
+    margin-left: 1.5em;
+    color: #7d93b2;
+  }
+  .third-header {
+    margin-left: -4.8em;
+    font-family: Helvetica;
+    color: #7d93b2;
+    margin-top: 5em;
+  }
+  .third-header i {
+    color: #fe4961;
+    font-size: 1.9em;
+    margin-left: 3em;
+  }
+  .third-header p {
+    padding-right: 5em;
+    margin-left: 1em;
+    padding-top: 7px;
+    font-size: 10px;
+  }
+  .services-header {
+    text-align: center;
+    font-weight: bold;
+    color: #234c87;
+    font-size: 15px;
+    margin-top: 4em;
+    margin-left: -57em;
+  }
+
+  /* header end */
+  /* body */
+  .MultiCarousel .MultiCarousel-inner .item {
+    width: 200px;
+  }
+  #omega {
+    display: none;
+  }
+  #destroy-item {
+    position: relative;
+  }
+  .services-possibilities {
+    margin-left: 16em;
+    margin-top: 4em;
+  }
+  .services-possibilities i {
+    color: #7d93b2;
+    font-size: 74px;
+    margin-left: 32px;
+    margin-top: 36px;
+    background-color: #e5f0ff;
+    border-radius: 55px;
+    padding: 13px;
+  }
+  .services-possibilities h2 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-align: center;
+  }
+  .services-possibilities button {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 1.3em;
+    text-align: center;
+    margin-left: 3.3em;
+    text-decoration: none;
+    background: none;
+    border: none;
+    margin-bottom: 1em;
+  }
+  .prices-header {
+    font-weight: bold;
+    color: #234c87;
+    margin-top: 2em;
+    margin-left: -29em;
+  }
+  .prices-header h2 {
+    font-size: 24px;
+  }
+  .prices-possibilities {
+    margin-left: 5.1em;
+    margin-top: 2.5em;
+    width: 62%;
+  }
+  .prices-possibilities div .col-2 {
+    margin-left: 0.6em;
+  }
+  #work-word {
+    margin-left: 0em;
+    margin-top: -1.2em;
+  }
+  .prices-possibilities h2 {
+    color: #4c6280;
+    font-size: 16px;
+    margin-top: 4.3em;
+    text-align: center;
+    padding-right: 3em;
+    margin-left: 4px;
+  }
+  .prices-possibilities h3 {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 3.3em;
+    text-align: center;
+  }
+  #packing-help {
+    margin-top: 1.6em;
+    margin-left: 18em;
+  }
+  #packing-help h3 {
+    margin-top: 5em;
+  }
+  .prices-stars {
+    color: #4c6280;
+    margin-left: 6em;
+    margin-top: 3.5em;
+    line-height: 2.6px;
+    font-size: 13px;
+  }
+  .third-body h2 {
+    color: #4c6280;
+    margin-top: 4.3em;
+    text-align: center;
+    font-size: 23px;
+    margin-left: -38em;
+  }
+  .third-body p {
+    color: #4c6280;
+    text-align: left;
+    padding-left: 5em;
+    padding-right: 53em;
+    margin-top: 3em;
+  }
+  /* body end*/
+  /* footer */
+  .first-footer {
+    margin-left: -1.5em;
+  }
+  #contact {
+    color: #4c6280;
+    font-size: 23px;
+    margin-top: 4.3em;
+    text-align: center;
+    margin-left: -37em;
+  }
+  .footer-contacts {
+    margin-top: 5em;
+    color: #4c6280;
+    line-height: 7.9px;
+    margin-left: 7em;
+    font-size: 14px;
+  }
+  .footer-contacts.radvilenu {
+    margin-left: 30em;
+  }
+  .footer-contacts iframe {
+    margin-top: -3px;
+    margin-left: -27.6em;
+    width: 366px;
+    height: 221px;
+  }
+  .second-footer {
+    color: #4c6280;
+    font-size: 18px;
+    margin-top: 5em;
+    text-align: center;
+    margin-left: -46em;
+    height: 3em;
+  }
+  .second-footer p {
+    padding-top: 3px;
+  }
+  #rek-header {
+    margin-top: 1.8em;
+    font-size: 20px;
+  }
+  .rek-contacts {
+    margin-top: 1.7em;
+  }
+  /* footer end */
+  /* button to top */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 47.9em;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  /* button to top end */
+  /* text for placiau */
+  #travelling-slider {
+    margin-left: -13em;
+    margin-right: 40em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  .fas.fa-times-circle {
+    margin-top: -2.3em;
+    margin-left: 39.5em;
+    position: absolute;
+  }
+
+  #move-slider {
+    margin-left: -13em;
+    margin-right: 40em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #packing-slider {
+    margin-left: -13em;
+    margin-right: 40em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #helpers-slider {
+    margin-left: -13em;
+    margin-right: 40em;
+    margin-top: -4em;
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
+    padding: 2em;
+    color: #4c6280;
+    display: none;
+    position: relative;
+  }
+  #destroy-slider {
     margin-left: -13em;
     margin-right: 40em;
     margin-top: -4em;
@@ -664,6 +1019,7 @@ body {
     color: #234c87;
     margin-left: 1em;
     margin-top: 1em;
+    z-index: 1;
   }
   /* following header text end*/
 
@@ -853,6 +1209,10 @@ body {
     margin-top: 5em;
     text-align: center;
     margin-left: -14em;
+    height: 3em;
+  }
+  .second-footer p {
+    padding-top: 6px;
   }
   #rek-header {
     margin-top: 1.8em;
@@ -867,7 +1227,7 @@ body {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 343px;
+    right: 18.5em;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -994,7 +1354,8 @@ body {
 @media screen and (max-width: 1454px) and (min-width: 1201px) {
   /* header */
   html {
-    margin-left: 150px;
+    margin-left: 134px;
+    margin-right: 15px;
   }
   .first-header {
     color: #234c87;
@@ -1003,7 +1364,7 @@ body {
   }
   .first-header h2 {
     font-size: 13px;
-    color: #234c87;
+    color: #4b545f;
     margin-left: 19.8em;
   }
   /* following header text */
@@ -1015,6 +1376,7 @@ body {
     color: #234c87;
     margin-left: 0em;
     padding: 9px;
+    z-index: 1;
   }
   .fixed h2 {
     margin-left: 17.5em;
@@ -1027,7 +1389,7 @@ body {
   .second-header img {
     width: 222px;
     margin-top: 3.9em;
-    margin-left: -8.8em;
+    margin-left: -7.3em;
   }
 
   #service-button {
@@ -1044,7 +1406,7 @@ body {
     color: #7d93b2;
   }
   .third-header {
-    margin-left: -6.9em;
+    margin-left: -4.4em;
     font-family: Helvetica;
     color: #7d93b2;
     margin-top: 5em;
@@ -1052,12 +1414,12 @@ body {
   .third-header i {
     color: #fe4961;
     font-size: 1.9em;
-    margin-left: 4.1em;
+    margin-left: 3.5em;
   }
   .third-header p {
-    padding-right: 5em;
-    margin-left: 1em;
-    padding-top: 7px;
+    padding-right: 5.5em;
+    margin-left: 11px;
+    padding-top: 9px;
     font-size: 10px;
   }
   .services-header {
@@ -1114,13 +1476,13 @@ body {
     font-weight: bold;
     color: #234c87;
     margin-top: 2em;
-    margin-left: -10em;
+    margin-left: -7.4em;
   }
   .prices-header h2 {
     font-size: 24px;
   }
   .prices-possibilities {
-    margin-left: 1.7em;
+    margin-left: 4.5em;
     margin-top: 2.5em;
     width: 83%;
   }
@@ -1148,28 +1510,29 @@ body {
   }
   #packing-help {
     margin-left: 22.5em;
-    margin-top: 1em;
+    margin-top: 1.6em;
     height: 13em;
   }
   .prices-stars {
     color: #4c6280;
-    margin-left: 3em;
+    margin-left: 8em;
     margin-top: 3.5em;
     line-height: 2.6px;
     font-size: 13px;
   }
+
   .third-body h2 {
     color: #4c6280;
     margin-top: 4.3em;
     text-align: center;
     font-size: 23px;
-    margin-left: -12em;
+    margin-left: -8em;
   }
   .third-body p {
     color: #4c6280;
     text-align: left;
     padding-left: 8em;
-    padding-right: 24em;
+    padding-right: 21em;
     margin-top: 3em;
   }
   /* body end*/
@@ -1182,13 +1545,13 @@ body {
     font-size: 23px;
     margin-top: 4.3em;
     text-align: center;
-    margin-left: -13em;
+    margin-left: -8em;
   }
   .footer-contacts {
     margin-top: 5em;
     color: #4c6280;
     line-height: 7.9px;
-    margin-left: 1em;
+    margin-left: 6em;
     font-size: 16px;
   }
   .footer-contacts.radvilenu {
@@ -1197,15 +1560,21 @@ body {
   .footer-contacts iframe {
     margin-top: -3px;
     margin-left: -6.6em;
-    width: 393px;
+    width: 331px;
     height: 229px;
   }
   .second-footer {
     color: #4c6280;
-    font-size: 18px;
+    font-size: 12px;
     margin-top: 5em;
     text-align: center;
-    margin-left: -14em;
+    margin-left: -18em;
+    width: 1431px;
+    height: 4em;
+  }
+  .second-footer p {
+    margin-left: -52px;
+    padding-top: 13px;
   }
   #rek-header {
     margin-top: 1.8em;
@@ -1220,7 +1589,7 @@ body {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 292px;
+    right: 310px;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -1234,9 +1603,8 @@ body {
   /* button to top end */
   /* text for placiau */
   #travelling-slider {
-    text-align: center;
-    margin-left: 0em;
-    margin-right: 19em;
+    margin-left: 6em;
+    margin-right: 20em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
     padding: 2em;
@@ -1246,25 +1614,29 @@ body {
   }
   .fas.fa-times-circle {
     margin-top: -2.3em;
-    margin-left: 24.5em;
+    margin-left: 40.5em;
     position: absolute;
   }
-
+  #travelling-slider p {
+    text-align: left;
+  }
   #move-slider {
-    text-align: center;
-    margin-left: 0em;
-    margin-right: 19em;
+    margin-left: 6em;
+    margin-right: 20em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
     padding: 2em;
     color: #4c6280;
     display: none;
     position: relative;
+  }
+  #move-slider p {
+    text-align: left;
   }
   #packing-slider {
     text-align: center;
-    margin-left: 0em;
-    margin-right: 19em;
+    margin-left: 6em;
+    margin-right: 20em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
     padding: 2em;
@@ -1272,16 +1644,28 @@ body {
     display: none;
     position: relative;
   }
+  #packing-slider p {
+    text-align: left;
+  }
+  #packing-slider i {
+    margin-left: 21em;
+  }
   #helpers-slider {
     text-align: center;
-    margin-left: 0em;
-    margin-right: 19em;
+    margin-left: 6em;
+    margin-right: 20em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
     padding: 2em;
     color: #4c6280;
     display: none;
     position: relative;
+  }
+  #helpers-slider p {
+    text-align: left;
+  }
+  #helpers-slider i {
+    margin-left: 21em;
   }
   #destroy-slider {
     text-align: center;
@@ -1370,8 +1754,8 @@ body {
   }
   .second-header img {
     width: 222px;
-    margin-top: 3.9em;
-    margin-left: -8.8em;
+    margin-top: 4.1em;
+    margin-left: -7.4em;
   }
 
   #service-button {
@@ -1388,7 +1772,7 @@ body {
     color: #7d93b2;
   }
   .third-header {
-    margin-left: -6.9em;
+    margin-left: -4.4em;
     font-family: Helvetica;
     color: #7d93b2;
     margin-top: 5em;
@@ -1396,12 +1780,12 @@ body {
   .third-header i {
     color: #fe4961;
     font-size: 1.9em;
-    margin-left: 4.1em;
+    margin-left: 3.5em;
   }
   .third-header p {
-    padding-right: 5em;
-    margin-left: 1em;
-    padding-top: 7px;
+    padding-right: 5.5em;
+    margin-left: 11px;
+    padding-top: 9px;
     font-size: 10px;
   }
   .services-header {
@@ -1492,8 +1876,8 @@ body {
     text-align: center;
   }
   #packing-help {
-    margin-left: 18.5em;
-    margin-top: 1em;
+    margin-left: 18em;
+    margin-top: 1.6em;
     height: 13em;
   }
   .prices-stars {
@@ -1551,6 +1935,7 @@ body {
     margin-top: 5em;
     text-align: center;
     margin-left: -8em;
+    height: 2em;
   }
   #rek-header {
     margin-top: 1.8em;
@@ -1579,7 +1964,6 @@ body {
   /* button to top end */
   /* text for placiau */
   #travelling-slider {
-    text-align: center;
     margin-left: 0.4em;
     margin-right: 14.5em;
     margin-top: -4em;
@@ -1591,12 +1975,11 @@ body {
   }
   .fas.fa-times-circle {
     margin-top: -2.3em;
-    margin-left: 21em;
+    margin-left: 40.5em;
     position: absolute;
   }
 
   #move-slider {
-    text-align: center;
     margin-left: 0.4em;
     margin-right: 14.5em;
     margin-top: -4em;
@@ -1607,7 +1990,6 @@ body {
     position: relative;
   }
   #packing-slider {
-    text-align: center;
     margin-left: 0.4em;
     margin-right: 14.5em;
     margin-top: -4em;
@@ -1618,7 +2000,6 @@ body {
     position: relative;
   }
   #helpers-slider {
-    text-align: center;
     margin-left: 0.4em;
     margin-right: 14.5em;
     margin-top: -4em;
@@ -1629,7 +2010,6 @@ body {
     position: relative;
   }
   #destroy-slider {
-    text-align: center;
     margin-left: 0.4em;
     margin-right: 14.5em;
     margin-top: -4em;
@@ -1715,8 +2095,8 @@ body {
   }
   .second-header img {
     width: 222px;
-    margin-top: 3.9em;
-    margin-left: -8.8em;
+    margin-top: 4.1em;
+    margin-left: -7.4em;
   }
 
   #service-button {
@@ -1738,24 +2118,22 @@ body {
     color: #7d93b2;
     margin-top: 5em;
   }
+  .third-header {
+    margin-left: -4.4em;
+    font-family: Helvetica;
+    color: #7d93b2;
+    margin-top: 5em;
+  }
   .third-header i {
     color: #fe4961;
     font-size: 1.9em;
-    margin-left: 4.1em;
+    margin-left: 3.5em;
   }
   .third-header p {
-    padding-right: 5em;
-    margin-left: 1em;
-    padding-top: 7px;
+    padding-right: 5.5em;
+    margin-left: 11px;
+    padding-top: 9px;
     font-size: 10px;
-  }
-  .services-header {
-    text-align: center;
-    font-weight: bold;
-    color: #234c87;
-    font-size: 15px;
-    margin-top: 4em;
-    margin-left: -15em;
   }
 
   /* header end */
@@ -1781,6 +2159,14 @@ body {
     background-color: #e5f0ff;
     border-radius: 55px;
     padding: 13px;
+  }
+  .services-header {
+    text-align: center;
+    font-weight: bold;
+    color: #234c87;
+    font-size: 26px;
+    margin-top: 3em;
+    margin-left: -9em;
   }
   .services-possibilities h2 {
     color: #4c6280;
@@ -1838,7 +2224,7 @@ body {
   }
   #packing-help {
     margin-left: 18.5em;
-    margin-top: 1em;
+    margin-top: 1.6em;
     height: 13em;
   }
   .prices-stars {
@@ -1896,6 +2282,7 @@ body {
     margin-top: 5em;
     text-align: center;
     margin-left: -8em;
+    height: 2em;
   }
   #rek-header {
     margin-top: 1.8em;
@@ -1924,8 +2311,7 @@ body {
   /* button to top end */
   /* text for placiau */
   #travelling-slider {
-    text-align: center;
-    margin-left: -7em;
+    margin-left: -7.3em;
     margin-right: 7em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
@@ -1936,13 +2322,12 @@ body {
   }
   .fas.fa-times-circle {
     margin-top: -2.3em;
-    margin-left: 21em;
+    margin-left: 40.9em;
     position: absolute;
   }
 
   #move-slider {
-    text-align: center;
-    margin-left: -7em;
+    margin-left: -7.3em;
     margin-right: 7em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
@@ -1952,8 +2337,7 @@ body {
     position: relative;
   }
   #packing-slider {
-    text-align: center;
-    margin-left: -7em;
+    margin-left: -7.3em;
     margin-right: 7em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
@@ -1963,8 +2347,7 @@ body {
     position: relative;
   }
   #helpers-slider {
-    text-align: center;
-    margin-left: -7em;
+    margin-left: -7.3em;
     margin-right: 7em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
@@ -1974,8 +2357,7 @@ body {
     position: relative;
   }
   #destroy-slider {
-    text-align: center;
-    margin-left: -7em;
+    margin-left: -7.3em;
     margin-right: 7em;
     margin-top: -4em;
     box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);
@@ -2060,13 +2442,13 @@ body {
   }
   .second-header img {
     width: 222px;
-    margin-top: 3.9em;
-    margin-left: -8.8em;
+    margin-top: 4em;
+    margin-left: -7.3em;
   }
 
   #service-button {
     font-size: 16px;
-    margin-left: 8.2em;
+    margin-left: 8em;
     margin-top: 3em;
     color: #7d93b2;
     font-weight: bold;
@@ -2078,7 +2460,7 @@ body {
     color: #7d93b2;
   }
   .third-header {
-    margin-left: -6.9em;
+    margin-left: -4.4em;
     font-family: Helvetica;
     color: #7d93b2;
     margin-top: 5em;
@@ -2086,12 +2468,12 @@ body {
   .third-header i {
     color: #fe4961;
     font-size: 1.9em;
-    margin-left: 4.1em;
+    margin-left: 3.5em;
   }
   .third-header p {
-    padding-right: 5em;
-    margin-left: 1em;
-    padding-top: 7px;
+    padding-right: 5.5em;
+    margin-left: 11px;
+    padding-top: 9px;
     font-size: 10px;
   }
   .services-header {
@@ -2182,7 +2564,7 @@ body {
   }
   #packing-help {
     margin-left: 18.5em;
-    margin-top: 1em;
+    margin-top: 1.6em;
     height: 13em;
   }
   .prices-stars {
@@ -2240,6 +2622,7 @@ body {
     margin-top: 5em;
     text-align: center;
     margin-left: -14em;
+    height: 2em;
   }
   #rek-header {
     margin-top: 1.8em;
@@ -2268,7 +2651,6 @@ body {
   /* button to top end */
   /* text for placiau */
   #travelling-slider {
-    text-align: center;
     margin-left: -13em;
     margin-right: 1em;
     margin-top: -4em;
@@ -2280,12 +2662,11 @@ body {
   }
   .fas.fa-times-circle {
     margin-top: -2.3em;
-    margin-left: 21.5em;
+    margin-left: 40.9em;
     position: absolute;
   }
 
   #move-slider {
-    text-align: center;
     margin-left: -13em;
     margin-right: 1em;
     margin-top: -4em;
@@ -2296,7 +2677,6 @@ body {
     position: relative;
   }
   #packing-slider {
-    text-align: center;
     margin-left: -13em;
     margin-right: 1em;
     margin-top: -4em;
@@ -2307,7 +2687,6 @@ body {
     position: relative;
   }
   #helpers-slider {
-    text-align: center;
     margin-left: -13em;
     margin-right: 1em;
     margin-top: -4em;
@@ -2318,7 +2697,6 @@ body {
     position: relative;
   }
   #destroy-slider {
-    text-align: center;
     margin-left: -13em;
     margin-right: 1em;
     margin-top: -4em;
@@ -2622,6 +3000,7 @@ body {
     margin-right: -3px;
     font-weight: bold;
     padding: 4px;
+    margin-right: 49em;
   }
   #travelling-stuffs {
     margin-left: 0.1em;
@@ -2631,6 +3010,9 @@ body {
     margin-top: 21em;
     width: 82%;
     background-color: white;
+  }
+  #travelling-stuffs p {
+    text-align: left;
   }
   #travelling-stuffs i {
     margin-top: -1.2em;
@@ -2647,6 +3029,9 @@ body {
     width: 82%;
     background-color: white;
   }
+  #move-stuffs p {
+    text-align: left;
+  }
   #move-stuffs i {
     margin-top: -1.2em;
     margin-left: 5.8em;
@@ -2661,6 +3046,9 @@ body {
     margin-top: 62em;
     width: 82%;
     background-color: white;
+  }
+  #packing-stuffs p {
+    text-align: left;
   }
   #packing-stuffs i {
     margin-top: -1.2em;
@@ -2677,6 +3065,9 @@ body {
     width: 82%;
     background-color: white;
   }
+  #helpers-stuffs p {
+    text-align: left;
+  }
   #helpers-stuffs i {
     margin-top: -1.2em;
     margin-left: 5.8em;
@@ -2692,6 +3083,9 @@ body {
     width: 82%;
     position: relative;
     background-color: white;
+  }
+  #destroy-stuffs p {
+    text-align: left;
   }
   #destroy-stuffs i {
     margin-top: -1.2em;
@@ -2764,7 +3158,7 @@ body {
   .footer-contacts p {
     line-height: 0.5em;
     margin-left: -20px;
-    font-size: 13px;
+    font-size: 11px;
   }
   .footer-contacts iframe {
     margin-top: 16em;
@@ -2778,9 +3172,13 @@ body {
   }
   .second-footer {
     color: #4c6280;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 5em;
-    margin-left: 9px;
+    margin-left: 1px;
     text-align: left;
+    height: 2em;
+  }
+  .second-footer p {
+    margin-left: 2em;
   }
 }
