@@ -98,42 +98,42 @@
     </div>
     <!-- services body -->
     <section class="regular slider">
+        <div class="row">
+          <div class="love" style="background-color:white">
+              <p> <i class="fas fa-dolly"></i></p>
+              <h2>Krovinių&nbsp;pervežimas</h2>
+              <button onclick="document.getElementById('travelling-slider').style.display='block'">(Plačiau)</button>
+          </div>
+        </div>
       <div class="row">
-        <div class="love" style="background-color:white">
-            <p> <i class="fas fa-dolly"></i></p>
-            <h2>Krovinių&nbsp;pervežimas</h2>
-            <button onclick="document.getElementById('travelling-slider').style.display='block'">(Plačiau)</button>
+        <div class="love"  style="background-color:white">
+            <p> <i class="fas fa-dolly-flatbed"></i></p>
+            <h2>Siuntų&nbsp;pristatymas</h2>
+            <button onclick="document.getElementById('move-slider').style.display='block'">(Plačiau)</button>
         </div>
       </div>
-    <div class="row">
-      <div class="love"  style="background-color:white">
-          <p> <i class="fas fa-dolly-flatbed"></i></p>
-          <h2>Siuntų&nbsp;pristatymas</h2>
-          <button onclick="document.getElementById('move-slider').style.display='block'">(Plačiau)</button>
+      <div class="row">
+        <div class="love"  style="background-color:white">
+          <p><i class="fas fa-archive"></i></p>
+          <h2 id="packing">Pakavimo</h2>
+          <button onclick="document.getElementById('packing-slider').style.display='block'">(Plačiau)</button>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="love"  style="background-color:white">
-        <p><i class="fas fa-archive"></i></p>
-        <h2 id="packing">Pakavimo</h2>
-         <button onclick="document.getElementById('packing-slider').style.display='block'">(Plačiau)</button>
+      <div class="row">
+        <div class="love"  style="background-color:white">
+          <p><i class="fas fa-people-carry"></i></p>
+          <h2>Krovėjų&nbsp;paslaugos</h2>
+          <button onclick="document.getElementById('helpers-slider').style.display='block'">(Plačiau)</button>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="love"  style="background-color:white">
-        <p><i class="fas fa-people-carry"></i></p>
-        <h2>Krovėjų&nbsp;paslaugos</h2>
-        <button onclick="document.getElementById('helpers-slider').style.display='block'">(Plačiau)</button>
-      </div>
-    </div>
-    <!-- <div class="row">
-      <div class="love"  style="background-color:white">
-        <p class="lead"> <i class="fas fa-recycle"></i></p>
-        <h2>Daiktų&nbsp;utilizavimas</h2>
-        <button onclick="document.getElementById('destroy-slider').style.display='block'">(Plačiau)</button>
-      </div>
-    </div> -->
-  </section>
+      <!-- <div class="row">
+        <div class="love"  style="background-color:white">
+          <p class="lead"> <i class="fas fa-recycle"></i></p>
+          <h2>Daiktų&nbsp;utilizavimas</h2>
+          <button onclick="document.getElementById('destroy-slider').style.display='block'">(Plačiau)</button>
+        </div>
+      </div> -->
+    </section>
   <div class="container">
       <div id="travelling-slider"  style="background-color:white">
         <div onclick="document.getElementById('travelling-slider').style.display='none'"><i class="fas fa-times-circle"></i></div>
@@ -181,8 +181,8 @@
       <div class="container" id="omega">
         <div class="row">
           <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel"  data-interval="1000">
-                  <div class="MultiCarousel-inner" >
-                      <div class="item"  style="background-color:white">
+                  <div class="MultiCarousel-inner">
+                      <div class="item"  style="background-color:white;">
                           <div class="pad15">
                               <p class="lead"> <i class="fas fa-dolly"></i></p>
                               <h2>Krovinių&nbsp;pervežimas</h2>
@@ -289,7 +289,7 @@
           <h2>Krovėjas&nbsp;su&nbsp;automo- biliu&nbsp;Kauno&nbsp;mieste (su&nbsp;krovos&nbsp;darbais)</h2>
           <h3>20,00&nbsp;€/&nbsp;val.*</h3>
         </div>
-        <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
+        <div class="col-2" id="car-text" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
           <h2>Du&nbsp;krovėjai&nbsp;su&nbsp;auto- mobiliu&nbsp;Kauno&nbsp;mieste &nbsp;&nbsp;(su&nbsp;krovos&nbsp;darbais)</h2>
           <h3>25,00&nbsp;€/&nbsp;val.*</h3>
         </div>
