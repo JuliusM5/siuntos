@@ -29,73 +29,83 @@
   <body style="background-color: rgba(248, 246, 248, 1);">
     <!--first header -->
     <div class="first-header" style="background-color:white;">
-      <div class="row">
-          <h2>Susisiekite&nbsp;su&nbsp;mumis:</h2>
+      <div class="col">
+        <div class="row">
+          <h2 style="font-size:2.5vw;">Susisiekite&nbsp;su&nbsp;mumis:</h2>
        
-          <h2>+370&nbsp;681&nbsp;92157</h2>
+          <h2 id="number" style="font-size:2.5vw;">+370&nbsp;681&nbsp;92157</h2>
       
-          <h2>info@kroviniams</h2>
+          <h2 id="info" style="font-size:2.5vw;">info@kroviniams</h2>
+        </div>
       </div>
-    </div>
-  
+    </div>  
     <!-- Button to top -->
     <button onclick="topFunction()" id="myBtn">Į viršų</button>
     <!-- Button to top -->
 
     <!-- first header end -->
     <!--second header -->
-
     <div class="second-header">
-      <div class="row">
-        <div class="col-2">
-          <img src="images/kroviniai.png" />
-        </div>
-          <div id="service-button">
-            <div class="row">
-              <div class="col">
-                <a href="#menu" id="toggle"><span></span></a>
-                <div id="menu">
-                  <a href="#services-scroll"style="text-decoration: none;">PASLAUGOS</a>
+      <div class="col-2">
+        <img src="images/kroviniai.png" />
+      </div>
+      <div id="service-button">
+        <div class="col">
+          <div id="menu">       
+              <a href="#services-scroll"style="text-decoration: none;">PASLAUGOS</a>
 
-                  <a href="#prices-scroll"style="text-decoration: none;">KAINOS</a>
+              <a href="#prices-scroll"style="text-decoration: none;">KAINOS</a>
 
-                  <a href="#about-scroll"style="text-decoration: none;">APIE&nbsp;MUS</a>
+              <a href="#about-scroll"style="text-decoration: none;">APIE&nbsp;MUS</a>
 
-                  <a href="#contact-scroll"style="text-decoration: none;">KONTAKTAI</a>  
-                </div>
-              </div>         
-            </div>
+              <a href="#contact-scroll"style="text-decoration: none;">KONTAKTAI</a>              
           </div>
-        </div>
+        </div>         
       </div>
     </div>
+    <header class="header">
+      <a href="/"class="logo"><img src="images/kroviniai.png" /></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#work">Our Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
     <!-- second header end -->
   
     <!--third header -->
-
-    <div class="third-header">
-      <div class="col">
-        <div class="row">
-          <i class="fas fa-clock"></i> 
-          <p>24/7 darbo laikas</p>
-          <i class="fas fa-head-side-mask"></i>
-          <p>Laikomės visų saugumo priemonių</p>
-          <i class="fas fa-shipping-fast"></i>
-          <p>Operatyvus darbas</p>
+      <div class="container">
+          <div class="third-header">
+            <div class="col">
+              <div class="row">
+                <div class="row">
+                  <i class="fas fa-clock"></i> 
+                  <p>24/7 darbo laikas</p>
+                </div>
+                <div class="row">  
+                  <i class="fas fa-head-side-mask"></i>
+                  <p>Laikomės visų saugumo priemonių</p>
+                </div>
+                  <div class="row">
+                  <i class="fas fa-shipping-fast"></i>
+                  <p>Operatyvus darbas</p>
+                </div>
+              </div>  
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
+      <!-- </div> -->
     <!--third header end -->    
     <!-- first body -->
     
-    <div class="row">
-      <div class="col-12">
+    
         <div class="services-header" id="services-scroll">
           <p>Mūsų paslaugos:</p>
         </div>
-      </div>
-    </div>
+  
     <!-- services body -->
     <section class="regular slider">
         <div class="row">
@@ -134,7 +144,7 @@
         </div>
       </div> -->
     </section>
-  <div class="container">
+    <div class="container">
       <div id="travelling-slider"  style="background-color:white">
         <div onclick="document.getElementById('travelling-slider').style.display='none'"><i class="fas fa-times-circle"></i></div>
         <p>
@@ -178,155 +188,139 @@
         </p>
       </div> -->
     </div>  
-      <div class="container" id="omega">
-        <div class="row">
-          <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel"  data-interval="1000">
-                  <div class="MultiCarousel-inner">
-                      <div class="item"  style="background-color:white;">
-                          <div class="pad15">
-                              <p class="lead"> <i class="fas fa-dolly"></i></p>
-                              <h2>Krovinių&nbsp;pervežimas</h2>
-                              <button onclick="document.getElementById('travelling-stuffs').style.display='block'">(Plačiau)</button>
-                          </div>
-                      </div>
-                      <div id="travelling-stuffs">
-                        <div onclick="document.getElementById('travelling-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
-                        <p>
-                          Saugiai ir greitai pristatome sunkius, didelių gabaritų, standartinius ar nestandartinius krovinius.<br> Kroviniai pristatomi nuo „durų iki durų“, papildomai galime pasiūlyti pakrovimo ir iškrovimo darbus.<br>
-                          <br>
-                          <b>Vežame:</b> statybines medžiagas, buitinę techniką, baldus, biuro įrangą ir kt.<br>
-                          <b>Maksimamus krovinio ilgis:</b> 3.15 m.<br> 
-                          <b>Pristatymas galimas visoje Lietuvoje.</b>
-                        </p>
-                      </div>
-                      <div class="item"  style="background-color:white">
-                          <div class="pad15">
-                              <p class="lead"> <i class="fas fa-dolly-flatbed"></i></p>
-                              <h2>Siuntų&nbsp;pristatymas</h2>
-                              <button onclick="document.getElementById('move-stuffs').style.display='block'">(Plačiau)</button>
-                          </div>
-                      </div>
-                      <div id="move-stuffs">
-                        <div onclick="document.getElementById('move-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
-                        <p>
-                          <b>Verslui:</b>
-                          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;	Standartiniu ir nestandartinių krovinių pasikrovimas/gabenimas/iškrovimas;<br>
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;	Krovinių užnešimas;<br>
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; Siuntų pristatymas;<br>
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; EXPRESS siuntų pristatymas tą pačia dieną (Kauno mieste);<br>
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; Pasirašytų dokumentų grąžinimas;
-                        </p>
-                      </div>
-                      <div class="item" style="background-color:white">
-                          <div class="pad15">
-                              <p class="lead"><i class="fas fa-archive"></i></p>
-                              <h2 id="packing">Pakavimo</h2>
-                               <button onclick="document.getElementById('packing-stuffs').style.display='block'">(Plačiau)</button>
-                          </div>
-                      </div>
-                      <div id="packing-stuffs">
-                        <div onclick="document.getElementById('packing-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
-                        <p>
-                          Mūsų darbuotojai jums padės supakuoti ir perkraustyti daiktus į naujus namus ar patalpas.<br>
-                          Perkraustymo dėžių matmenys: 600 x 360 x 380 mm<br>
-                          Paslaugos atliekamos visoje Lietuvoje.
-                        </p>
-                      </div>
-                      <div class="item" style="background-color:white">
-                          <div class="pad15">
-                              <p class="lead"><i class="fas fa-people-carry"></i></p>
-                              <h2>Krovėjų&nbsp;paslaugos</h2>
-                              <button onclick="document.getElementById('helpers-stuffs').style.display='block'">(Plačiau)</button>
-                          </div>
-                      </div>
-                      <div id="helpers-stuffs">
-                        <div onclick="document.getElementById('helpers-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
-                        <p>
-                          Mūsų darbuotojai atlieka pasikrovimo, iškrovimo ir užnešimo paslaugas.<br>
-                          Jeigu planuojate atsinaujinti baldus ar buitinę techniką, prašome iš anksto kreiptis į mus ir mes
-                        </p>
-                      </div>
-                      <!-- <div class="item" id="destroy-item" style="background-color:white">
-                          <div class="pad15">
-                              <p class="lead"> <i class="fas fa-recycle"></i></p>
-                              <h2>Daiktų&nbsp;utilizavimas</h2>
-                              <button onclick="document.getElementById('destroy-stuffs').style.display='block'">(Plačiau)</button>
-                          </div>
-                      </div> -->
-                      <!-- <div id="destroy-stuffs">
-                        <div onclick="document.getElementById('destroy-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
-                        <p>
-                          Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
-                        </p>
-                      </div> -->
-                  </div>
-                  <button class="btn btn-primary leftLst"><i class="fas fa-angle-left"></i></button>
-                  <button class="btn btn-primary rightLst"><i class="fas fa-angle-right"></i></button>
-              </div>
-        </div>
-      </div>
+      <!-- prices body -->
+      <div class="container">
+        <div class="mobile-possibilities">
+          <div class="row">
+            <div class="love" style="background-color:white">
+                <p> <i class="fas fa-dolly"></i></p>
+                <h2>Krovinių&nbsp;pervežimas</h2>
+                <button onclick="document.getElementById('travelling-stuffs').style.display='block'">(Plačiau)</button>
+            </div>
+          </div>
+          <div id="travelling-stuffs">
+            <div onclick="document.getElementById('travelling-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+            <p>
+              Saugiai ir greitai pristatome sunkius, didelių gabaritų, standartinius ar nestandartinius krovinius.<br> Kroviniai pristatomi nuo „durų iki durų“, papildomai galime pasiūlyti pakrovimo ir iškrovimo darbus.<br>
+              <br>
+              <b>Vežame:</b> statybines medžiagas, buitinę techniką, baldus, biuro įrangą ir kt.<br>
+              <b>Maksimamus krovinio ilgis:</b> 3.15 m.<br> 
+              <b>Pristatymas galimas visoje Lietuvoje.</b>
+            </p>
+          </div>
+          <div class="row">
+            <div class="love"  style="background-color:white">
+                <p> <i class="fas fa-dolly-flatbed"></i></p>
+                <h2>Siuntų&nbsp;pristatymas</h2>
+                <button onclick="document.getElementById('move-stuffs').style.display='block'">(Plačiau)</button>
+            </div>
+          </div>
+          <div id="move-stuffs">
+            <div onclick="document.getElementById('move-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+            <p>
+              <b>Verslui:</b>
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;	Standartiniu ir nestandartinių krovinių pasikrovimas/gabenimas/iškrovimas;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;	Krovinių užnešimas;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; Siuntų pristatymas;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; EXPRESS siuntų pristatymas tą pačia dieną (Kauno mieste);<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; Pasirašytų dokumentų grąžinimas;
+            </p>
+          </div>
+          <div class="row">
+            <div class="love"  style="background-color:white">
+              <p><i class="fas fa-archive"></i></p>
+              <h2>Pakavimo</h2>
+              <button onclick="document.getElementById('packing-stuffs').style.display='block'">(Plačiau)</button>
+            </div>
+          </div>
+          <div id="packing-stuffs">
+            <div onclick="document.getElementById('packing-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+            <p>
+              Mūsų darbuotojai jums padės supakuoti ir perkraustyti daiktus į naujus namus ar patalpas.<br>
+              Perkraustymo dėžių matmenys: 600 x 360 x 380 mm<br>
+              Paslaugos atliekamos visoje Lietuvoje.
+            </p>
+          </div>
+          <div class="row">
+            <div class="love"  style="background-color:white">
+              <p><i class="fas fa-people-carry"></i></p>
+              <h2>Krovėjų&nbsp;paslaugos</h2>
+              <button onclick="document.getElementById('helpers-stuffs').style.display='block'">(Plačiau)</button>
+            </div>
+          </div>
+          <div id="helpers-stuffs">
+            <div onclick="document.getElementById('helpers-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+            <p>
+              Mūsų darbuotojai atlieka pasikrovimo, iškrovimo ir užnešimo paslaugas.<br>
+              Jeigu planuojate atsinaujinti baldus ar buitinę techniką, prašome iš anksto kreiptis į mus ir mes
+            </p>
+          </div>
+          <!-- <div class="row">
+            <div class="love"  style="background-color:white">
+              <p class="lead"> <i class="fas fa-recycle"></i></p>
+              <h2>Daiktų&nbsp;utilizavimas</h2>
+              <button onclick="document.getElementById('destroy-stuffs').style.display='block'">(Plačiau)</button>
+            </div>
+          </div> -->
+          <!-- <div id="destroy-stuffs">
+          <div onclick="document.getElementById('destroy-stuffs').style.display='none'"><i class="fas fa-times-circle"></i></div>
+          <p>
+            Pasture he invited mr company shyness. But when shot real her. Chamber her observe visited removal six sending himself boy. At exquisite existence if an oh dependent excellent. Are gay head need down draw. Misery wonder enable mutual get set oppose the uneasy. End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their. Open know age use whom him than lady was. On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye. Design praise me father an favour. As greatly replied it windows of an minuter behaved passage. Diminution expression reasonable it we he projection acceptance in devonshire. Perpetual it described at he applauded.
+          </p>
+          </div>-->
+        </div> 
+    </div>
     <!-- services body  end-->
     <!--first body end -->
 
     <!-- second body -->
-
-    <div class="row">
-      <div class="col-12">
         <div class="prices-header" id="prices-scroll">
-          <h2>Kainos</h2>
+          <p>Kainos</p>
         </div>
-      </div>
-    </div>
 
     <!-- prices body -->
-    <div class="prices-possibilities">
-      <div class="row">
-        <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
-          <h2>Vairuotojas&nbsp;su&nbsp;auto- mobiliu&nbsp;(be&nbsp;krovos &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;darbų)</h2>
-          <h3>14,00&nbsp;€/&nbsp;val.*</h3>
+        <div class="container">
+          <div class="prices-possibilities">
+            <div style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
+              <h2>Vairuotojas&nbsp;su&nbsp;auto- mobiliu&nbsp;(be&nbsp;krovos &nbsp;&nbsp;&nbsp;darbų)&nbsp;</h2>
+              <h3>14,00&nbsp;€/&nbsp;val.*</h3>
+            </div>
+            <div  style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
+              <h2>Krovėjas&nbsp;su&nbsp;automo- biliu&nbsp;Kauno&nbsp;mieste (su&nbsp;krovos&nbsp;darbais)</h2>
+              <h3>20,00&nbsp;€/&nbsp;val.*</h3>
+            </div>
+            <div  id="car-text" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
+              <h2>Du&nbsp;krovėjai&nbsp;su&nbsp;auto- mobiliu&nbsp;Kauno&nbsp;mieste &nbsp;&nbsp;(su&nbsp;krovos&nbsp;darbais)</h2>
+              <h3>25,00&nbsp;€/&nbsp;val.*</h3>
+            </div>
+            <div  id="picking-help" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
+              <h2>Krovėjo&nbsp;kaina&nbsp;vežant &nbsp;užmiestį</h2>
+              <h3>nuo&nbsp;6,00&nbsp;€/&nbsp;val.* iki&nbsp;10,00&nbsp;€/&nbsp;val.*</h3>
+            </div>
+            <div  id="packing-help"  style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
+              <h2>Pakavimo&nbsp;paslaugos</h2>
+              <h3>2,00&nbsp;€/&nbsp;pak.*</h3>
+            </div>
+            <!-- <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
+              <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Utilizavimas**</h2>
+              <h3>nuo&nbsp;0,10&nbsp;€/&nbsp;kg.*</h3>
+            </div> -->
+          </div>
         </div>
-        <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
-          <h2>Krovėjas&nbsp;su&nbsp;automo- biliu&nbsp;Kauno&nbsp;mieste (su&nbsp;krovos&nbsp;darbais)</h2>
-          <h3>20,00&nbsp;€/&nbsp;val.*</h3>
+        <div class="col">
+          <div class="prices-stars">
+            <p>
+              *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Visos nurodys kainos be PVM
+            </p>
+            <!-- <p style="margin-top: 2em;">
+              **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karantino laikotarpiu&nbsp;utilizavimo&nbsp;paslaugos negalimos
+            </p> -->
+          </div>
         </div>
-        <div class="col-2" id="car-text" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
-          <h2>Du&nbsp;krovėjai&nbsp;su&nbsp;auto- mobiliu&nbsp;Kauno&nbsp;mieste &nbsp;&nbsp;(su&nbsp;krovos&nbsp;darbais)</h2>
-          <h3>25,00&nbsp;€/&nbsp;val.*</h3>
-        </div>
-        <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
-          <h2>Krovėjo&nbsp;kaina&nbsp;vežant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;į&nbsp;užmiestį</h2>
-          <h3>nuo&nbsp;6,00&nbsp;€/&nbsp;val.* iki&nbsp;10,00&nbsp;€/&nbsp;val.*</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-2" id="packing-help"
-          style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
-          <h2>Pakavimo&nbsp;paslaugos</h2>
-          <h3>2,00&nbsp;€/&nbsp;pak.*</h3>
-        </div>
-        <!-- <div class="col-2" style="box-shadow: 0 9px 24px rgba(0, 0, 0, 0.13);background-color:white">
-          <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Utilizavimas**</h2>
-          <h3>nuo&nbsp;0,10&nbsp;€/&nbsp;kg.*</h3>
-        </div> -->
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="prices-stars">
-          <p>
-            *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Visos nurodys kainos be PVM
-          </p>
-          <!-- <p style="margin-top: 2em;">
-            **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karantino laikotarpiu&nbsp;utilizavimo&nbsp;paslaugos negalimos
-          </p> -->
-        </div>
-      </div>
-    </div>
     <!-- prices body  end-->
     <!--second body end -->
 
     <!--third body -->
-    <div class="row">
       <div class="col">
         <div class="third-body" id="about-scroll">
           <h2>Apie mus</h2>
@@ -337,40 +331,36 @@
           </p>
         </div>
       </div>
-    </div>
     <!--third body end -->
     <!--first footer -->
-    <div class="first-footer" id="contact-scroll">
-      <div class="row">
-        <div class="col-12">
-          <h2 id="contact">Kontaktai</h2>
-        </div>
-      </div>
+    <div class="first-footer" id="contact-scroll">    
+      <h2 id="contact">Kontaktai</h2>
       <div class="footer-contacts">
         <div class="row">
           <div class="col-6">
-            <p>
-              Adresas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kaunakiemio&nbsp;g.&nbsp;5.&nbsp;Kaunas
-            </p>
-            <p>
-              Mobilus&nbsp;telefonas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+370&nbsp;681&nbsp;92157
-            </p>
-            <p>
-              El.&nbsp;pašto&nbsp;adresas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info@kroviniams.lt
-            </p>
+            <div class="col-3">
+              <p>
+                Adresas:   Kaunakiemio&nbsp;g.&nbsp;5.&nbsp;Kaunas
+              </p>
+              <p>
+                Mobilus&nbsp;telefonas:  +370&nbsp;681&nbsp;92157
+              </p>
+              <p>
+                El.&nbsp;pašto&nbsp;adresas:  info@kroviniams.lt
+              </p>
             <h3 id="rek-header">Rekvizitai</h3>
             <div class="rek-contacts">
               <p>
-                Įmonės pavadinimas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MB&nbsp;„T&nbsp;klubas”
+                Įmonės&nbsp;pavadinimas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MB&nbsp;„T&nbsp;klubas”
               </p>
               <p>
-                Įmonės kodas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 303054629
+                Įmonės&nbsp;kodas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;303054629
               </p>
               <p>
-                PVM&nbsp;mokėtojo&nbsp;kodas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LT100011562913
+                PVM&nbsp;mokėtojo&nbsp;kodas:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LT100011562913
               </p>
               <p>
-                Atsiskaitomoji  sąskaita: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LT397300010154761496
+                Atsiskaitomoji&nbsp;sąskaita:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LT397300010154761496
               </p>
             </div>
           </div>
